@@ -1,0 +1,6 @@
+title:  Placeholder for Collaborative Software Development course 
+description: Collaborative Software Development 
+theme: null 
+markdown: kramdown 
+kramdown: 
+  input: GFM 
