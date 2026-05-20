@@ -99,32 +99,7 @@ To do: Create slides for explain the forking workflow and an example repository 
 
 ## 12:10 Exercise: Forking Workflow - 25' [Niket]
 
-Exercise: Forking Workflow (based on the [Code Refinery's forking workflow exercise](https://coderefinery.github.io/git-collaborative/forking-workflow/#exercise))
-(To Do: Add hyper link to the exercise description in exercises.md)
-
-#### Exercise prep
-Maintainer (team lead):
-
-- Create an exercise repository called forking-workflow-exercise by generating from a template using this template: https://github.com/coderefinery/recipe-book-template.
-
-- In this case we do not add collaborators to the repository (this is the point of this example).
-
-- Share the link to the newly created repository with your group.
-
-Learners in exercise team: Fork the newly created repository (not the “coderefinery” one) and then clone your fork (if you wish to work locally).
-
-#### Exercise tasks:
-
-    - Open an issue in the upstream exercise repository where you describe the change you want to make. Take note of the issue number.
-    - Clone your fork of the repository to your local machine (if you haven’t already).
-    - Create a new branch in your local repository for the change you want to make. Name the branch something descriptive of the change you are making.
-    - Make a change to the recipe book on the new branch and in the commit cross-reference the issue you opened. 
-    - Push the branch to your fork on GitHub.
-    - Open a pull request from your branch in your fork to the main branch of the upstream exercise repository. In the pull request description, reference the issue you opened in the upstream repository.
-    - Team leaders will merge the pull requests. For individual participants, the instructors and workshop organizers will review and merge the pull requests. During the review, pay attention to the automated test step (here for demonstration purposes, we test whether the recipe contains an ingredients and an instructions sections).
-    - After few pull requests are merged, update your fork with the changes.
-    - Check that in your fork you can see changes from other people’s pull requests.
-
+See forking workflow exercise in [exercises.md](../material_for_participants/exercises.md#5-forking-workflow).
 
 
 ## 12:30: Lunch Break - 60'

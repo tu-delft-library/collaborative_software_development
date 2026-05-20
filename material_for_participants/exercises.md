@@ -50,14 +50,30 @@ Working as a team, merge the changes made in the previous exercise into the main
 
 ## 5. Forking Workflow
 
-Working in teams, apply FAIR principles to a Git repository using a [FAIR software checklist.](https://tu-delft-dcc.github.io/docs/software/fair_software/checklist.html)
+This exercise is based on the [Code Refinery's forking workflow exercise](https://coderefinery.github.io/git-collaborative/forking-workflow/#exercise))
 
-1. [Administrator] creates a repository for the team using the [collab-faircode template repository](https://github.com/the-magnificents/collab-faircode). Name the team's repository as <team-name>-faircode
-2. [Team] Go thru the Fair software checklist and assign one item from the list to each team member. The chosen item will become tasks for the team members to work on.
-3. [Collaborators] open an issue in the team's repository about the chosen item. Describe the task for each item in the issue.
-4. [Collaborators] Fork the team's repository to their accounts.
-5. [Collaborators] Clone their forks onto thier local machine, work on their issues, and push changes to their forks.
-6. [Collaborators] Make a pull request from their forks to the base repository (team's repostory), **main** branch.
+#### Exercise prep
+Maintainer (team lead):
+
+- Create an exercise repository called forking-workflow-exercise by generating from a template using this template: https://github.com/tu-delft-library/recipe-book-template 
+
+- In this case we do not add collaborators to the repository (this is the point of this exercise).
+
+- Share the link to the newly created repository with your group.
+
+Learners in exercise team: Fork the newly created repository (the one created by the maintainer) and then clone your fork. 
+
+#### Exercise tasks:
+
+    - Open an issue in the upstream exercise repository where you describe the change you want to make. Take note of the issue number.
+    - Clone your fork of the repository to your local machine (if you haven’t already).
+    - Create a new branch in your local repository for the change you want to make. Name the branch something descriptive of the change you are making.
+    - Make a change to the recipe book on the new branch and in the commit cross-reference the issue you opened. 
+    - Push the branch to your fork on GitHub.
+    - Open a pull request from your branch in your fork to the main branch of the upstream exercise repository. In the pull request description, reference the issue you opened in the upstream repository.
+    - Team leaders will merge the pull requests. For individual participants, the instructors and workshop organizers will review and merge the pull requests. During the review, pay attention to the automated test step (here for demonstration purposes, we test whether the recipe contains an ingredients and an instructions sections).
+    - After few pull requests are merged, update your fork with the changes.
+    - Check that in your fork you can see changes from other people’s pull requests.
 
 ## 6. Code Reviews
 
@@ -82,6 +98,6 @@ Working individually. Add a license and citation files to the repository used in
 3. Use this tool to generate a CITATION  file and add it to your remote repository: 
     - Search the Internet for: `cffinit` 
 
-    ## 9. Full-cycle collaborative workflow
+## 9. Full-cycle collaborative workflow
 
-    ***TBD based on Coderefinery lesson***
+***TBD based on Coderefinery lesson***
