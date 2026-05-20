@@ -90,28 +90,46 @@ Exercise 3.4: [Pull Requests](https://4turesearchdata-carpentries.github.io/GitC
 3. [Collaborators] Merge the pull request to the main branch using the method of their choice.
 4. [Collaborators] Check the main branch to confirm that your changes have been merged.
 
-## 12:00 Live Demo: Forking Workflow - 10'
+## 12:00 Live Demo: Forking Workflow - 25'  [Niket]
 
-[//]: # (TODO: some visual aids would probably help here!!)
+Explain a forking strategy and demonstrate the workflow around forking, cloning, pushing and upstream pull requests.
 
-Explain a forking strategy and demonstrate the workflow around forking, cloning, pushing and upstream pull requests
+To do: Create slides for explain the forking workflow and an example repository to demonstrate the workflow. 
 
-## 12:10 💪 Exercise: Forking Workflow - 20'
 
-Exercise 3.5: [Forking Workflow](https://4turesearchdata-carpentries.github.io/GitCoDev/exercises/L3-ex05.html)
+## 12:10 💪 Exercise: Forking Workflow - 25' [Niket]
 
-Working in teams, apply FAIR principles to a Git repository using a [FAIR software checklist](https://tu-delft-dcc.github.io/docs/software/fair_software/checklist.html).
+Exercise: Forking Workflow (based on the [Code Refinery's forking workflow exercise](https://coderefinery.github.io/git-collaborative/forking-workflow/#exercise))
+(To Do: Add hyper link to the exercise description in exercises.md)
 
-1. [Administrator] creates a repository for the team using the [collab-faircode template repository](https://github.com/the-magnificents/collab-faircode). Name the team’s repository as -faircode
-2. [Team] Go thru the Fair software checklist and assign one item from the list to each team member. The chosen item will become tasks for the team members to work on.
-3. [Collaborators] open an issue in the team’s repository about the chosen item. Describe the task for each item in the issue.
-4. [Collaborators] Fork the team’s repository to their accounts.
-5. [Collaborators] Clone their forks onto thier local machine, work on their issues, and push changes to their forks.
-6. [Collaborators] Make a pull request from their forks to the base repository (team’s repostory), main branch.
+#### Exercise prep
+Maintainer (team lead):
+
+- Create an exercise repository called forking-workflow-exercise by generating from a template using this template: https://github.com/coderefinery/recipe-book-template.
+
+- In this case we do not add collaborators to the repository (this is the point of this example).
+
+- Share the link to the newly created repository with your group.
+
+Learners in exercise team: Fork the newly created repository (not the “coderefinery” one) and then clone your fork (if you wish to work locally).
+
+#### Exercise tasks:
+
+    - Open an issue in the upstream exercise repository where you describe the change you want to make. Take note of the issue number.
+    - Clone your fork of the repository to your local machine (if you haven’t already).
+    - Create a new branch in your local repository for the change you want to make. Name the branch something descriptive of the change you are making.
+    - Make a change to the recipe book on the new branch and in the commit cross-reference the issue you opened. 
+    - Push the branch to your fork on GitHub.
+    - Open a pull request from your branch in your fork to the main branch of the upstream exercise repository. In the pull request description, reference the issue you opened in the upstream repository.
+    - Team leaders will merge the pull requests. For individual participants, the instructors and workshop organizers will review and merge the pull requests. During the review, pay attention to the automated test step (here for demonstration purposes, we test whether the recipe contains an ingredients and an instructions sections).
+    - After few pull requests are merged, update your fork with the changes.
+    - Check that in your fork you can see changes from other people’s pull requests.
+
+
 
 ## 12:30: 🧆🥗 Lunch Break - 60'
 
-## 13:30: 🎦 Presentation: Code Reviews - 10'
+## 13:30: 🎦 Presentation: Code Reviews - 10'  [Niket]
 
 - Why Code Reviews?
     - Sharing knowledge
@@ -127,11 +145,11 @@ Working in teams, apply FAIR principles to a Git repository using a [FAIR softwa
         - Spend time won what you can automate
         - Be hostile to individuals
 
-## 13:40 Live Demo: Code Reviews - 10'
+## 13:40 Live Demo: Code Reviews - 10' [Niket]
 
 Demonstrate code review based on pull request from previous section
 
-## 13:50 💪 Exercise: Code Reviews - 20;
+## 13:50 💪 Exercise: Code Reviews - 20; [Niket]
 
 Exercise 4.2: [Code Reviews](https://4turesearchdata-carpentries.github.io/GitCoDev/exercises/L4-ex02.html)
 
