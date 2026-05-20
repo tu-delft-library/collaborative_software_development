@@ -97,7 +97,7 @@ Explain a forking strategy and demonstrate the workflow around forking, cloning,
 To do: Create slides for explain the forking workflow and an example repository to demonstrate the workflow. 
 
 
-## 12:10 💪 Exercise: Forking Workflow - 25' [Niket]
+## 12:10 Exercise: Forking Workflow - 25' [Niket]
 
 Exercise: Forking Workflow (based on the [Code Refinery's forking workflow exercise](https://coderefinery.github.io/git-collaborative/forking-workflow/#exercise))
 (To Do: Add hyper link to the exercise description in exercises.md)
@@ -127,7 +127,7 @@ Learners in exercise team: Fork the newly created repository (not the “coderef
 
 
 
-## 12:30: 🧆🥗 Lunch Break - 60'
+## 12:30: Lunch Break - 60'
 
 ## 13:30: 🎦 Presentation: Code Reviews - 10'  [Niket]
 
@@ -205,12 +205,17 @@ Exercise 4.4: [Choosing Licenses and Enabling Software Citation](https://4turese
 
 ## 15:05 Break 10'
 
-## 15:15 🎦 Presentation: CI & CD - 10'
+## 15:15 Presentation: CI & CD - 25'  [Niket]
 
-## 15:25 💪 Exercise: Full Cycle Workflow - 45'
+Explain CI and automated testing concepts and how they can be used to improve software quality and development workflows. Provide an overview of popular CI/CD tools and platforms, such as GitHub Actions and demonstrate how to set up a simple CI/CD pipeline for a software project.
 
-## 16:10 Summary and Key Points / Q&A - 15'
+To do: Decide whether to do the github actions part as a demo or type along. 
 
-## 16:25 Feedback - 5'
+## 15:35 Exercise: Full Cycle Collaborative Workflow - 35' [Niket]
+This exercise is based on Code Refinery's [full cycle collaborative workflow exercise](https://coderefinery.github.io/testing/full-cycle-ci/#optional-full-cycle-collaborative-workflow).
 
-## 16:30 Goodbye
+## 16:15 Summary and Key Points / Q&A - 15'
+
+## 16:30 Feedback - 5'
+
+## 16:35 Goodbye
