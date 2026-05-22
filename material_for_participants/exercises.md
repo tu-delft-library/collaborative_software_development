@@ -40,7 +40,7 @@ Working as a team, merge the changes made in the previous exercise into the main
 
 ## 3. Forking Workflow
 
-This exercise is based on the [Code Refinery's forking workflow exercise](https://coderefinery.github.io/git-collaborative/forking-workflow/#exercise))
+This exercise is based on the [Code Refinery's forking workflow exercise](https://coderefinery.github.io/git-collaborative/forking-workflow/#exercise)
 
 #### Exercise prep
 Maintainer (team lead):
