@@ -1,22 +1,8 @@
 # Exercises
 
 Some exercises to practice our skills through the day:
-## 1. Clone a repository and make a contribution
 
-Please perform the following tasks individually.
-
-1. Clone the Check-in repository via SSH.
-1. Make a copy of the file `check-in/template.md` in the same directory; give it an anonymous name, ex. `<name-initials><3-last-digits-phone>.md`
-1. Open your copy of `template.md` and add something to the lists in the file.
-1. Commit your changes, and push them to the remote repository. You might experience difficulties doing that, follow the suggestions given by Git.
-1. Reflect on the difficulties you faced, and how we might avoid them.
-
-💡 Tip: 
-
-While completing this exercise, Git may warn you that you have to pull changes before pushing your contribution. 
-This is expected and is part of the reason for what we will learn *next* in the class, but please do ask for help if you need it.
-
-## 2. Roles and Responsibilities 
+## 1. Roles and Responsibilities 
 
 Please perform the following tasks.
 
@@ -28,7 +14,7 @@ Please perform the following tasks.
     - Zero or more reviewers. Collaborators can also be reviewers.
 3. Choose a name for the team.
 
-## 3. Branching workflow
+## 2. Branching workflow
 
 As a Team, work on the following coding taks using a **branching** workflow.
 
@@ -39,7 +25,7 @@ As a Team, work on the following coding taks using a **branching** workflow.
 5. [Collaborator] each member uses the branching model to complete the chosen task.
 6. [Collaborator] each member commits and pushs changes to the team's repository.
 
-## 4. Pull Requests
+## 3. Pull Requests
 
 Working as a team, merge the changes made in the previous exercise into the main branch of the team’s repository.
 
@@ -48,34 +34,18 @@ Working as a team, merge the changes made in the previous exercise into the main
 3. [Collaborators] Merge the pull request to the main branch using the method of their choice.
 4. [Collaborators] Check the main branch to confirm that your changes have been merged.
 
-## 5. Forking Workflow
+## 4. Forking Workflow
 
-This exercise is based on the [Code Refinery's forking workflow exercise](https://coderefinery.github.io/git-collaborative/forking-workflow/#exercise))
+Working in teams, apply FAIR principles to a Git repository using a [FAIR software checklist.](https://tu-delft-dcc.github.io/docs/software/fair_software/checklist.html)
 
-#### Exercise prep
-Maintainer (team lead):
+1. [Administrator] creates a repository for the team using the [collab-faircode template repository](https://github.com/the-magnificents/collab-faircode). Name the team's repository as <team-name>-faircode
+2. [Team] Go thru the Fair software checklist and assign one item from the list to each team member. The chosen item will become tasks for the team members to work on.
+3. [Collaborators] open an issue in the team's repository about the chosen item. Describe the task for each item in the issue.
+4. [Collaborators] Fork the team's repository to their accounts.
+5. [Collaborators] Clone their forks onto thier local machine, work on their issues, and push changes to their forks.
+6. [Collaborators] Make a pull request from their forks to the base repository (team's repostory), **main** branch.
 
-- Create an exercise repository called forking-workflow-exercise by generating from a template using this template: https://github.com/tu-delft-library/recipe-book-template 
-
-- In this case we do not add collaborators to the repository (this is the point of this exercise).
-
-- Share the link to the newly created repository with your group.
-
-Learners in exercise team: Fork the newly created repository (the one created by the maintainer) and then clone your fork. 
-
-#### Exercise tasks:
-
-    - Open an issue in the upstream exercise repository where you describe the change you want to make. Take note of the issue number.
-    - Clone your fork of the repository to your local machine (if you haven’t already).
-    - Create a new branch in your local repository for the change you want to make. Name the branch something descriptive of the change you are making.
-    - Make a change to the recipe book on the new branch and in the commit cross-reference the issue you opened. 
-    - Push the branch to your fork on GitHub.
-    - Open a pull request from your branch in your fork to the main branch of the upstream exercise repository. In the pull request description, reference the issue you opened in the upstream repository.
-    - Team leaders will merge the pull requests. For individual participants, the instructors and workshop organizers will review and merge the pull requests. During the review, pay attention to the automated test step (here for demonstration purposes, we test whether the recipe contains an ingredients and an instructions sections).
-    - After few pull requests are merged, update your fork with the changes.
-    - Check that in your fork you can see changes from other people’s pull requests.
-
-## 6. Code Reviews
+## 5. Code Reviews
 
 Working in teams. Practice reviewing code in pull requests created in the previous exercise. Names between `[]` indicate who in the team should engage in each activity.
 
@@ -85,7 +55,7 @@ Working in teams. Practice reviewing code in pull requests created in the previo
 4. [Reviewer] Approves the PR.
 5. [Author] Merges the PR into the repository after being approved for at least one reviewer.
 
-## 7. Guidelines for Contributions
+## 6. Guidelines for Contributions
 
 1. Working individually, use the `CONTRIBUTING.md` template provided in https://github.com/manuGil/fair-code to add **contributing guidelines** to the very repository used in Lessons 1 and 2. 
 2. Adapt the template to your repository as long as time allow it.
@@ -98,6 +68,6 @@ Working individually. Add a license and citation files to the repository used in
 3. Use this tool to generate a CITATION  file and add it to your remote repository: 
     - Search the Internet for: `cffinit` 
 
-## 9. Full-cycle collaborative workflow
+    ## 9. Full-cycle collaborative workflow
 
-***TBD based on Coderefinery lesson***
+    ***TBD based on Coderefinery lesson***
