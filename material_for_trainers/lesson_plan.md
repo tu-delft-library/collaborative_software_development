@@ -73,27 +73,15 @@ Exercise in which participants:
 
 ## 11:45 Live Demo: Forking Workflow - 10'
 
-[//]: # (TODO: some visual aids would probably help here!!)
-
 Explain a forking strategy and demonstrate the workflow around forking, cloning, pushing and upstream pull requests
 
-## 12:10 💪 Exercise: Forking Workflow - 25'
+## 12:10 Exercise: Forking Workflow - 25'
 
-Exercise 3: [Forking Workflow](../material_for_participants/exercises.md)
+Exercise 3: [Forking Workflow](../material_for_participants/exercises.md#3-forking-workflow)
 
-Exercise in which participants:
+## 12:35: Lunch Break - 60'
 
-- Create a repository from a template
-- Fork the repository
-- Clone their fork
-- Assign issues to themselves for changes
-- Make changes locally
-- Commit and push changes to github
-- Generate and resolve PRs from the fork to the upstream repository
-
-## 12:35: 🧆🥗 Lunch Break - 60'
-
-## 13:35: 🎦 Presentation: Code Reviews - 7'
+## 13:35: Presentation: Code Reviews - 7'
 
 - Why Code Reviews?
     - Sharing knowledge
@@ -113,7 +101,7 @@ Exercise in which participants:
 
 Demonstrate code review based on pull request from previous section
 
-## 13:52 💪 Exercise: Code Reviews - 23;
+## 13:52 Exercise: Code Reviews - 23;
 
 Exercise 4.2: [Code Reviews](https://4turesearchdata-carpentries.github.io/GitCoDev/exercises/L4-ex02.html)
 
@@ -169,13 +157,22 @@ Exercise 4.4: [Choosing Licenses and Enabling Software Citation](https://4turese
 
 ## 15:15 Break 10'
 
-## 15:25 🎦 Presentation: CI & CD - 10'
+## 15:25 Presentation: CI & CD - 10'
+
+- Introduction to tests
+- Running tests locally
+- Importance of automated testing in collaborative workflow: accept changes from others safely, without breaking your code
+- Introduction to Continuous Integration (CI) and Continuous Deployment (CD)
+- CI: automatically running tests on new code changes to ensure they don't break existing functionality
+- CD: automatically deploying code changes to production after passing tests
+
+Type along: automate tests using Github actions. Show how to set up a simple workflow that runs tests on every pull request.
 
 Aspects of both code quality control (Lint-style checks) and unit and regression tests can be run automatically. Live applications can also be deployed in response to actions on the repository. 
 
 Provide a demo of CI & CD tasks using Github actions, showing tests both passing and failing in response to a PR.
 
-## 15:55 💪 Exercise: Full Cycle Workflow - 45'
+## 15:55 Exercise: Full Cycle Workflow - 45'
 
 
 
