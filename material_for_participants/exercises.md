@@ -43,27 +43,37 @@ Working as a team, merge the changes made in the previous exercise into the main
 This exercise is based on the [Code Refinery's forking workflow exercise](https://coderefinery.github.io/git-collaborative/forking-workflow/#exercise)
 
 #### Exercise prep
-Maintainer (team lead):
 
-- Create an exercise repository called forking-workflow-exercise by generating from a template using this template: https://github.com/tu-delft-library/recipe-book-template 
+1. **The maintainer**: Creates an exercise repository called `forking-workflow-exercise` by generating from a template using this template: https://github.com/tu-delft-library/recipe-book-template 
 
-- In this case we do not add collaborators to the repository (this is the point of this exercise).
+In this case we do not add collaborators to the repository (this is the point of this exercise).
 
-- Share the link to the newly created repository with your group.
+2. **The maintainer**: Shares the link to the newly created repository with your group.
 
-Learners in exercise team: Fork the newly created repository (the one created by the maintainer) and then clone your fork. 
+3. **Learners in exercise team**: Fork the newly created repository (the one created by the maintainer) and then clone your fork. 
+
+4. **The maintainer**: Forks the neighboring team’s repository and clones the fork to their local machine. This is to ensure that the maintainer can also practice the forking workflow and experience the process from the perspective of a contributor.
+
 
 #### Exercise tasks:
 
-    - Open an issue in the upstream exercise repository where you describe the change you want to make. Take note of the issue number.
-    - Clone your fork of the repository to your local machine (if you haven’t already).
-    - Create a new branch in your local repository for the change you want to make. Name the branch something descriptive of the change you are making.
-    - Make a change to the recipe book on the new branch and in the commit cross-reference the issue you opened. 
-    - Push the branch to your fork on GitHub.
-    - Open a pull request from your branch in your fork to the main branch of the upstream exercise repository. In the pull request description, reference the issue you opened in the upstream repository.
-    - Team leaders will merge the pull requests. For individual participants, the instructors and workshop organizers will review and merge the pull requests. During the review, pay attention to the automated test step (here for demonstration purposes, we test whether the recipe contains an ingredients and an instructions sections).
-    - After few pull requests are merged, update your fork with the changes.
-    - Check that in your fork you can see changes from other people’s pull requests.
+1. Open an issue in the upstream exercise repository where you describe the change you want to make. Take note of the issue number.
+
+2. Clone your fork of the repository to your local machine (if you haven’t already).
+
+3. Create a new branch in your local repository for the change you want to make. Name the branch something descriptive of the change you are making.
+
+4. Make a change to the recipe book on the new branch and in the commit cross-reference the issue you opened.
+
+5. Push the branch to your fork on GitHub.
+
+6. Open a pull request from your branch in your fork to the main branch of the upstream exercise repository. In the pull request description, reference the issue you opened in the upstream repository.
+
+7. Team leaders will merge the pull requests. (Check this: During the review, pay attention to the automated test step (here for demonstration purposes, we test whether the recipe contains an ingredients and an instructions sections).
+
+8. After few pull requests are merged, update your fork with the changes.
+
+9. Check that in your fork you can see changes from other people’s pull requests.
 
 
 ## 4. Code Reviews

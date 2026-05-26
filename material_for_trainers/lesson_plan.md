@@ -76,14 +76,15 @@ Exercise in which participants:
 Explain a forking strategy and demonstrate the workflow around forking, cloning, pushing and upstream pull requests
 
 - Motivation for forking workflow: when you don't have permissions to push to the original repository, or when you want to contribute to a project without being a collaborator.
-- Demo: failed push to a repository (To do: decide on the repor to use here) to explain why forking is necessary in some cases. Instructor clones and pushes a fetaure branch to a repo to which they don't have write access. This results in push being rejected. 
+- Demo: failed push to a repository (To do: decide on the repor to use here) to explain why forking is necessary in some cases. 
+    - Instructor clones and pushes a fetaure branch to a repo to which they don't have write access. This results in push being rejected. 
 - Type along: Fork a repository (To do: Decide on the repo to use here) on the web and review the repo commits history
 - Explain clone vs fork using a diagram (To do: create diagram for this)
 - Forking workflow demo: Reattempt mcontributing changes to repo in earlier steps using a fork and pull request to the original repository 
 - forking workflow steps/flowchart (To do: create flowchart for this)
 - Questions and discussion
 - Explain exercise goals
-
+    - Explain generating from template (like a cookiecutter) to create a new repository for the exercise
 
 
 ## 12:10 Exercise: Forking Workflow - 25'
