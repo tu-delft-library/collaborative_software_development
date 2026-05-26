@@ -115,13 +115,7 @@ Demonstrate code review based on pull request from previous section
 
 ## 13:52 Exercise: Code Reviews - 23;
 
-Exercise 4.2: [Code Reviews](https://4turesearchdata-carpentries.github.io/GitCoDev/exercises/L4-ex02.html)
-
-1. [Author] Assign one or two team members as reviewers in your pull request (PR).
-2. [Reviewer] Reviews, discuss, and suggest changes the pull request(s) following recommendation mentioned so far.
-3. [Author] Make changes to PR based on the reviewer(s) suggestions, and updates the PR.
-4. [Reviewer] Approves the PR.
-5. [Author] Merges the PR into the repository after being approved for at least one reviewer.
+Exercise 4: [Code Reviews](../material_for_participants/exercises.md#4-code-reviews)
 
 ## 14:15 Break - 10'
 
@@ -169,7 +163,8 @@ Exercise 4.4: [Choosing Licenses and Enabling Software Citation](https://4turese
 
 ## 15:15 Break 10'
 
-## 15:25 Presentation: CI & CD - 10'
+
+## 15:25 Presentation: Automated Testing (Continuous Integration) - 25'
 
 - Introduction to tests
 - Running tests locally
@@ -184,7 +179,7 @@ Aspects of both code quality control (Lint-style checks) and unit and regression
 
 Provide a demo of CI & CD tasks using Github actions, showing tests both passing and failing in response to a PR.
 
-## 15:55 Exercise: Full Cycle Workflow - 45'
+## 15:55 Exercise: Full Cycle Workflow - 30'
 
 
 

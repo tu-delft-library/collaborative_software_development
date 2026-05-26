@@ -79,18 +79,27 @@ In this case we do not add collaborators to the repository (this is the point of
 
 ## 4. Code Reviews
 
-Working in teams. Practice reviewing code in pull requests created in the previous exercise. Names between `[]` indicate who in the team should engage in each activity.
+Exercise goal: Working in teams. Practice reviewing code in pull requests created in the previous exercise. 
+Continue working on the same repository as in the previous exercise.
 
-1. [Author] Assign one or two team members as reviewers in your pull request (PR).
-2. [Reviewer] Reviews, discuss, and  suggest changes the pull request(s) following recommendation mentioned so far.
-3. [Author] Make changes to PR based on the reviewer(s) suggestions, and updates the PR.
-4. [Reviewer] Approves the PR.
-5. [Author] Merges the PR into the repository after being approved for at least one reviewer.
+1. Create a new feature branch and one or few commits: in these improve something but also deliberately introduce a typo and also a larger mistake which we will want to fix during the code review.
+
+2. Push the branch to your fork on GitHub and open a pull request from your feature branch towards the main branch of the upstream repository.
+
+3. As a reviewer to somebody else’s pull request, ask for an improvement and also directly suggest a change for the small typo. (Hint: suggestions are possible through the GitHub web interface, view of a pull request, “Files changed” view, after selecting some lines. Look for the “±” button.)
+
+4. As the submitter, learn how to accept the suggested change. (Hint: GitHub web interface, “Files Changed” view.)
+
+5. As the submitter, improve the pull request without having to close and open a new one: by adding a new commit to the same branch. (Hint: push to the branch again.)
+
+6. Once the changes are addressed, merge the pull request.
+
 
 ## 5. Guidelines for Contributions
 
 1. Working individually, use the `CONTRIBUTING.md` template provided in https://github.com/manuGil/fair-code to add **contributing guidelines** to the very repository used in Lessons 1 and 2. 
 2. Adapt the template to your repository as long as time allow it.
+
 
 ## 6. Choosing Licenses and Enabling Software Citation
 
@@ -100,6 +109,7 @@ Working individually. Add a license and citation files to the repository used in
 3. Use this tool to generate a CITATION  file and add it to your remote repository: 
     - Search the Internet for: `cffinit` 
 
-    ## 7. Full-cycle collaborative workflow
 
-    ***TBD based on Coderefinery lesson***
+## 7. Full-cycle collaborative workflow
+
+***TBD based on Coderefinery lesson***
