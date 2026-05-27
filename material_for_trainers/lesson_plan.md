@@ -76,13 +76,19 @@ Exercise in which participants:
 Explain a forking strategy and demonstrate the workflow around forking, cloning, pushing and upstream pull requests
 
 - Motivation for forking workflow: when you don't have permissions to push to the original repository, or when you want to contribute to a project without being a collaborator.
-- Demo: failed push to a repository (To do: decide on the repor to use here) to explain why forking is necessary in some cases. 
-    - Instructor clones and pushes a fetaure branch to a repo to which they don't have write access. This results in push being rejected. 
-- Type along: Fork a repository (To do: Decide on the repo to use here) on the web and review the repo commits history
-- Explain clone vs fork using a diagram (To do: create diagram for this)
-- Forking workflow demo: Reattempt mcontributing changes to repo in earlier steps using a fork and pull request to the original repository 
-- forking workflow steps/flowchart (To do: create flowchart for this)
+
+- Demo: Failed push to a repository to explain why forking is necessary in some cases. 
+    - Preparation: The co-instructor creates a repository named `forking-workflow-demo` using the [recipe-book template](https://github.com/tu-delft-library/recipe-book-template) and does not add the lead instructor as a collaborator.
+    - The lead instructor wishes to contribute to this newly created repository but doesn't have write access. They clone the repository and push a feature branch. This results in push being rejected. 
+
+- Slides: Explain clone vs fork using a diagram (To do: create diagram for this)
+
+- Demo: Reattempt contributing changes to repositiry in the earlier step using the forking workflow. 
+
+- Slides: Forking workflow steps/flowchart (To do: create flowchart for this)
+
 - Questions and discussion
+
 - Explain exercise goals
     - Explain generating from template (like a cookiecutter) to create a new repository for the exercise
 
@@ -111,7 +117,13 @@ Exercise 3: [Forking Workflow](../material_for_participants/exercises.md#3-forki
 
 ## 13:42 Live Demo: Code Reviews - 10'
 
-Demonstrate code review based on pull request from previous section
+Preparation
+- Lead instructor creates a new repository named `code-review-demo` using the recipe book template as per the instructions for the code review exercise. 
+- The co-instructor forks the repository and clones the fork to their local machine.
+- The co-instructor follows the steps mentioned in the [code review exercise](../material_for_participants/exercises.md#4-code-reviews): creates a new branch, makes changes to the recipe book, commits and pushes the changes to their fork and creates a pull request from their branch in their fork to the main branch of the upstream `code-review-demo` repository. 
+
+Demo: The lead instructor reviews the pull request, providing feedback and requesting changes. The co-instructor makes the requested changes, pushes them to their fork, and the lead instructor merges the pull request.
+
 
 ## 13:52 Exercise: Code Reviews - 23;
 
