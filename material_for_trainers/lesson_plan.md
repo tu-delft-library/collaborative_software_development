@@ -191,6 +191,8 @@ Aspects of both code quality control (Lint-style checks) and unit and regression
 
 Provide a demo of CI & CD tasks using Github actions, showing tests both passing and failing in response to a PR.
 
+Content of this demo and the exercise will be based on the [Code Refinery's Automated Testing lesson](https://coderefinery.github.io/testing/continuous-integration/), adapted to fit the context of this workshop.
+
 ## 15:55 Exercise: Full Cycle Workflow - 30'
 
 
