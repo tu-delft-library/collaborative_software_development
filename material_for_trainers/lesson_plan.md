@@ -119,7 +119,7 @@ Exercise 3: [Forking Workflow](../material_for_participants/exercises.md#3-forki
 
 Preparation
 - Lead instructor creates a new repository named `code-review-demo` using the recipe book template as per the instructions for the code review exercise. 
-- The co-instructor forks the repository and clones the fork to their local machine.
+- The co-instructor forks [this repository](https://github.com/niketagrawal/demo-code-review) and clones the fork to their local machine.
 - The co-instructor follows the steps mentioned in the [code review exercise](../material_for_participants/exercises.md#4-code-reviews): creates a new branch, makes changes to the recipe book, commits and pushes the changes to their fork and creates a pull request from their branch in their fork to the main branch of the upstream `code-review-demo` repository. 
 
 Demo: The lead instructor reviews the pull request, providing feedback and requesting changes. The co-instructor makes the requested changes, pushes them to their fork, and the lead instructor merges the pull request.
