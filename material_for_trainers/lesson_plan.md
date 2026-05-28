@@ -208,6 +208,13 @@ Content of this demo and the exercise will be based on the [Code Refinery's Auto
 
 ## 16:20 Summary and Key Points / Q&A - 15'
 
+- Full cycle workflow for branching workflow 
+
+![Full workflow branching](../images/branching_workflow_full.png)
+
+*Image source: [AeoLis GitHub developer docs](https://aeolis.readthedocs.io/en/update_documentation/developer/quickstart.html), licensed under [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)*
+
+
 ## 16:45 Feedback - 5'
 
 ## 16:45 Goodbye
