@@ -83,6 +83,11 @@ Explain a forking strategy and demonstrate the workflow around forking, cloning,
 
 - Slides: Explain clone vs fork using a diagram (To do: create diagram for this)
 
+![Fork and Clone workflow](../images/forkandclone.png)
+
+*Image source: [CodeRefinery Git Collaborative lesson](https://coderefinery.github.io/git-collaborative/concepts/), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)*
+
+
 - Demo: Reattempt contributing changes to repositiry in the earlier step using the forking workflow. 
 
 - Slides: Forking workflow steps/flowchart (To do: create flowchart for this)
@@ -91,6 +96,10 @@ Explain a forking strategy and demonstrate the workflow around forking, cloning,
 
 - Explain exercise goals
     - Explain generating from template (like a cookiecutter) to create a new repository for the exercise
+
+    - ![Generating from template](../images/generate_from_template.png)
+
+*Image source: [CodeRefinery Git Collaborative lesson](https://coderefinery.github.io/git-collaborative/concepts/#generating-from-templates), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)*
 
 
 ## 12:10 Exercise: Forking Workflow - 25'

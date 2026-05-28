@@ -2,7 +2,15 @@ This file will contain all relevant material for participants related to the con
 
 (To do: Discuss with co-instructor about the utility of this file)
 
-For example, in the Automated testing and Continuous Integration part of the course, we won't have the time to go into detals of testing and good practices for testing, but we can include links to the Code Refinery's lessons on these topics, as well as any other relevant resources such as DCC guides (gitlab CI runner setup tutorial), and intermediate python course. 
+
+
+### Collaborative Development workflow 
+
+- https://tu-delft-dcc.github.io/docs/software/development_workflow/ 
+
+
+
+
 
 
 ### Automated Testing
