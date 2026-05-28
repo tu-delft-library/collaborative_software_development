@@ -5,4 +5,7 @@ Learn how to work effectively in software development teams and adopt best pract
 
 ## Acknowledgements
 
-This course is based on the [Code Refinery's Git Collaborative Development lesson](https://coderefinery.github.io/git-collaborative/) and the [Automated Testing lesson from Code Refinery](https://coderefinery.github.io/testing/continuous-integration/). 
+This course is based on the lesosn material of the following courses
+- [Code Refinery's Git Collaborative Development lesson](https://coderefinery.github.io/git-collaborative/) available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- [Automated Testing lesson from Code Refinery](https://coderefinery.github.io/testing/continuous-integration/) available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- [GitCoDev](https://4turesearchdata-carpentries.github.io/GitCoDev/foreword.html) available under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
