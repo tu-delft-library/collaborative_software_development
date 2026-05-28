@@ -182,11 +182,11 @@ pytest
   "Get started with GitHub Actions". Select the button for "Configure"
   under Python Application:
 
-  ```{figure} ../images/python_application.png
-  :alt: Selecting a Python workflow
+![Selecting a Python workflow](../images/python_application.png)
 
-  Select "Python application" as the starter workflow.
-  ```
+*Image source: [CodeRefinery Automated Testing lesson](https://coderefinery.github.io/testing/continuous-integration/), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)*
+
+Select "Python application" as the starter workflow.
 
 GitHub creates the following file for you in the subfolder `.github/workflows`.
 Modify the highlighted lines according to the action below. This will add a code coverage
@@ -247,11 +247,11 @@ jobs:
 
 Commit the change by pressing the "Start Commit" button:
 
-```{figure} ../images/gh_action_commit.png
-:alt: Committing the change
+![Committing the change](../images/gh_action_commit.png)
+
+*Image source: [CodeRefinery Automated Testing lesson](https://coderefinery.github.io/testing/continuous-integration/), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)*
 
 Committing the file via the GitHub web interface: follow the flow, give it some commit name. You can commit directly to main.
-```
 
 ### Step 4: Verify that tests have been automatically run
 
@@ -260,11 +260,12 @@ Observe in the repository how the test succeeds. While the test is
 executing, the repository has a yellow marker. This is replaced with a green
 check mark, once the test succeeds:
 
-```{figure} ../images/green_check_mark.png
-:alt: Verify that the test passed
+
+![Verify that the test passed](../images/green_check_mark.png)
+
+*Image source: [CodeRefinery Automated Testing lesson](https://coderefinery.github.io/testing/continuous-integration/), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)*
 
 Green check means passed.
-```
 
 Also browse the "Actions" tab and look at the steps there and their output.
 
