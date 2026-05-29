@@ -196,18 +196,18 @@ Exercise 4.4: [Choosing Licenses and Enabling Software Citation](https://4turese
 
 Note: Content of this demo and the exercise is based on the [Code Refinery's Automated Testing lesson](https://coderefinery.github.io/testing/continuous-integration/), adapted to fit the context of this workshop.
 
-- Motivation [3 min]
+- Motivation [5 min]
     - Where does automated testing fit in the collaborative software dev workflow? 
     - Show what we are working towards and how are we going to get there
 
-- Introduction to testing [10 min]
+- Introduction to testing [5 min]
     - Experimental scientist and instrument calibration analogy for software tests
     - Questions to participants about their experience with testing
-    - Examples of tests
 
-- [Demo] Running tests locally [10 min]
-
-- Automated testing and Continuous Integration (CI) concepts [5 min]
+- [Demo] Examples of tests [15 min]
+    - Adding two numbers, farenheit to celsius converter, a string occurrence counter . 
+    - Refer to resources.md for more examples of tests for more complicated functions. It is not in the scope of this course to go into details of test design for various types of functions, but the goal is to give participants a sense of what tests look like and how they can be used to check the correctness of code. 
+    - Running tests locally using pytest
 
 - [Demo] Automating tests (implementing CI) using Github actions [10 min]
 
@@ -216,11 +216,12 @@ Note: Content of this demo and the exercise is based on the [Code Refinery's Aut
 - Explain exercise goals and instructions [5 min]
 
 
-## 16:20 Exercise: Implementing Continuous Integration - 30'
+## 16:20 Exercise: Implementing Continuous Integration - 35'
 
-To do: Decide on the exercise
+Exercise 5: [Implementing Continuous Integration](../material_for_participants/exercises.md#5-implementing-continuous-integration)
 
-## 16:50 Summary and Key Points / Q&A - 15'
+
+## 16:55 Summary and Key Points / Q&A - 15'
 
 - Full cycle workflow for branching workflow 
 
@@ -229,7 +230,7 @@ To do: Decide on the exercise
 *Image source: [AeoLis GitHub developer docs](https://aeolis.readthedocs.io/en/update_documentation/developer/quickstart.html), licensed under [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)*
 
 
-## 17:05 Feedback - 5'
+## 17:10 Feedback - 5'
 
 
-## 17:10 End
+## 17:15 End

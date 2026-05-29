@@ -118,12 +118,18 @@ In this course we use a version from [CodeRefinery](https://coderefinery.github.
 
 The exercise involves several steps, each with a number of subtasks. Check that each step is correct before proceeding to the next.
 
+In this exercise, everybody will:
+
+- Create a repository on GitHub (everybody should use a unique repository name for their repository) 
+- Commit code to the repository and set up tests with GitHub Actions. Intentially, the code contains some bugs and the tests reveal these bugs. 
+- Everybody will find a bug in their repository and open an issue in their repository. 
+- Then each one will fix the bug in their exercise partner's repository by sending a pull request using the forking workflow. 
+
 ### Step 1: Create a new repository 
 
-- Begin by creating a repository called (for example) *example-ci*.
-- **Before** you create the repository, select **"Initialize this repository
-  with a README"** (otherwise you try to clone an empty repo).
-- Clone the repository (`git clone git@github.com:<yourGitID>/example-ci.git`).
+- Begin by creating a new repository in your GitHub accoount. Make sure you give this repository a unique name, for example, by including your username in the repositopry name, for example, `ci-exercise-yourgitusername`. Otherwise, forking your exercise partner's repository with the same name will lead to confusion.
+- Make sure to initialize the repository ** with a README"** (otherwise you try to clone an empty repo).
+- Clone the repository to your computer.
 - Add the following files and code
 
 Add a file `functions.py` containing:
