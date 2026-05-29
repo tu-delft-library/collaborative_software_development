@@ -9,13 +9,13 @@
 ## 09:20 Icebreaker - 5'
 A short icebreaker from [resources document](https://tud365.sharepoint.com/:w:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/resources.docx?d=waea671d7fc6a46d5b5c068fc19f41940&csf=1&web=1&e=f2QYgy)
 
-## 09:25 🎦 Introduction - 20'
-- 🎦 Introduce the subject of collaborative development using [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/Collaborative%20Software%20Development.pptx?d=w06a41ff9049e480ea180dbef81488b8c&csf=1&web=1&e=1seegV)
+## 09:25 Introduction - 20'
+- Introduce the subject of collaborative development using [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/Collaborative%20Software%20Development.pptx?d=w06a41ff9049e480ea180dbef81488b8c&csf=1&web=1&e=1seegV)
 - Why collaborative 🤝 software development
 - Review remote operations (clone / pull / push)
 - Git hosting options: Github / Gitlab / Others
 
-## 09:45 Live Demo: Setting Up - 25'
+## 09:45 Live Demo: Setting Up - 25' 
 - Install SSH key
 - Publish local repo to github
   - Create local repo in candidates' location of choice
@@ -24,7 +24,7 @@ A short icebreaker from [resources document](https://tud365.sharepoint.com/:w:/r
 
 ## 10:10 Break - 10'
 
-## 10:20 🎦 Presentation - Collaborative Software Projects - 10'
+## 10:20 Presentation - Collaborative Software Projects - 10'
 
 [//]: # (TODO slides)
 
@@ -42,7 +42,7 @@ Present from [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServ
     - **Branching**
     - **Forking**
 
-## 11:40 💪 Exercise: Branching Workflow - 20'
+## 11:40 Exercise: Branching Workflow - 20'
 
 [//]: # (Consider a new template repo - probaby not necessary here)
 
@@ -62,7 +62,7 @@ Exercise in which participants:
 ## 11:20 Live Demo: Pull Requests - 10'
 Explain pull requests and demonstrate the workflow around creating, reviewing and merging
 
-## 11:30 💪 Exercise: Pull Requests - 15'
+## 11:30 Exercise: Pull Requests - 15'
 
 Exercise 2: [Pull Requests](../material_for_participants/exercises.md)
 
@@ -71,44 +71,46 @@ Exercise in which participants:
 - Create pull requests for the issues above
 - Merge the PRs, resolving any conflicts that emerge
 
-## 11:45 Live Demo: Forking Workflow - 10'
+## 11:45 Live Demo: Forking Workflow - 40'
 
-Explain a forking strategy and demonstrate the workflow around forking, cloning, pushing and upstream pull requests
+- Motivation and learning goals [2 min]
+   - Scenario: When you don't have permissions to push to the original repository, or when you want to contribute to a project without being a collaborator
 
-- Motivation for forking workflow: when you don't have permissions to push to the original repository, or when you want to contribute to a project without being a collaborator.
-
-- Demo: Failed push to a repository to explain why forking is necessary in some cases. 
+- [Demo] Failed push to a repository to explain why forking is necessary in some cases [5 min]
     - Preparation: The co-instructor creates a repository named `forking-workflow-demo` using the [recipe-book template](https://github.com/tu-delft-library/recipe-book-template) and does not add the lead instructor as a collaborator.
     - The lead instructor wishes to contribute to this newly created repository but doesn't have write access. They clone the repository and push a feature branch. This results in push being rejected. 
 
-- Slides: Explain clone vs fork using a diagram (To do: create diagram for this)
+- Explain clone vs fork using a diagram [10 min]
 
 ![Fork and Clone workflow](../images/forkandclone.png)
 
 *Image source: [CodeRefinery Git Collaborative lesson](https://coderefinery.github.io/git-collaborative/concepts/), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)*
 
+- [Demo] Contributing changes to repository in the earlier step using the forking workflow [15 min]
 
-- Demo: Reattempt contributing changes to repositiry in the earlier step using the forking workflow. 
+- Summarize forking workflow [3 min]
 
-- Slides: Forking workflow steps/flowchart (To do: create flowchart for this)
+- Q&A [5 min]
 
-- Questions and discussion
-
-- Explain exercise goals
+- Explain exercise goals [5 min]
     - Explain generating from template (like a cookiecutter) to create a new repository for the exercise
-
     - ![Generating from template](../images/generate_from_template.png)
 
 *Image source: [CodeRefinery Git Collaborative lesson](https://coderefinery.github.io/git-collaborative/concepts/#generating-from-templates), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)*
 
 
-## 12:10 Exercise: Forking Workflow - 25'
+## 12:20 Exercise: Forking Workflow - 25'
 
 Exercise 3: [Forking Workflow](../material_for_participants/exercises.md#3-forking-workflow)
 
-## 12:35: Lunch Break - 60'
+## 12:45 Lunch - 60'
 
-## 13:35: Presentation: Code Reviews - 7'
+## 13:45 Q&A Forking workflow and summary - 10'
+
+- When should you use the forking workflow vs the branching workflow?
+- Questions? 
+
+## 13:55 Code Reviews - 5'
 
 - Why Code Reviews?
     - Sharing knowledge
@@ -124,31 +126,33 @@ Exercise 3: [Forking Workflow](../material_for_participants/exercises.md#3-forki
         - Spend time won what you can automate
         - Be hostile to individuals
 
-## 13:42 Live Demo: Code Reviews - 10'
+## 14:00 Live Demo: Code Reviews - 15'
 
-Preparation
+[Preparation]
 - Lead instructor creates a new repository named `code-review-demo` using the recipe book template as per the instructions for the code review exercise. 
 - The co-instructor forks [this repository](https://github.com/niketagrawal/demo-code-review) and clones the fork to their local machine.
 - The co-instructor follows the steps mentioned in the [code review exercise](../material_for_participants/exercises.md#4-code-reviews): creates a new branch, makes changes to the recipe book, commits and pushes the changes to their fork and creates a pull request from their branch in their fork to the main branch of the upstream `code-review-demo` repository. 
 
-Demo: The lead instructor reviews the pull request, providing feedback and requesting changes. The co-instructor makes the requested changes, pushes them to their fork, and the lead instructor merges the pull request.
+[Demo] The lead instructor reviews the pull request, providing feedback and requesting changes. The co-instructor makes the requested changes, pushes them to their fork, and the lead instructor merges the pull request.
 
 
-## 13:52 Exercise: Code Reviews - 23;
+## 14:15 Exercise: Code Reviews - 20'
 
 Exercise 4: [Code Reviews](../material_for_participants/exercises.md#4-code-reviews)
 
-## 14:15 Break - 10'
 
-## 14:25 🎦 Presentation: CONTRIBUTING document - 10'
+## 14:35 Break - 10'
 
-Discussi:
+
+## 14:45 Presentation: CONTRIBUTING document - 10'
+
+Discussion:
 - Why contributing guidelines matter
 - How they can help insure consistency, quality and easy review workflows
 - The main components of a contributing guideline and adapting them depending on the project
 - Why contributors should follow guidelines
 
-## 14:35 💪 Exercise: Guidelines for Contributors - 10'
+## 14:55 Exercise: Guidelines for Contributors - 10'
 
 [//]: # (Shaved 5' off this to catch up from time glitch in precious session)
 
@@ -157,7 +161,7 @@ Exercise 4.3: [Guidelines for Contributors](https://4turesearchdata-carpentries.
 1. Working individually, use the CONTRIBUTING.md template provided in [manuGil/fair-code](https://github.com/manuGil/fair-code) to add contributing guidelines to the repository used for individual exercises.
 2. Adapt the template to your repository as long as time allows it.
 
-## 14:50 🎦 Presentation: Licenses and Citation - 10'
+## 15:05 Presentation: Software Licenses and Software Citation - 20'
 
 Explain and discuss the importance of software licenses and software citation for software.
 
@@ -173,7 +177,7 @@ Explain how citations files are used to provide information about the software a
 
 Provide a demo on how to create .cff files using this [CFFInit Tool](https://citation-file-format.github.io/cff-initializer-javascript/)
 
-## 15:00  💪 Exercise: Choosing Licenses and Enabling Software Citation - 15'
+## 15:25 Exercise: Choosing Licenses and Enabling Software Citation - 15'
 
 Exercise 4.4: [Choosing Licenses and Enabling Software Citation](https://4turesearchdata-carpentries.github.io/GitCoDev/exercises/L4-ex04.html)
 
@@ -182,31 +186,38 @@ Exercise 4.4: [Choosing Licenses and Enabling Software Citation](https://4turese
 3. Use this tool to generate a CITATION file and add it to your remote repository:
     - Search the Internet for: cffinit
 
-## 15:15 Break 10'
+## 15:40 Break 10'
 
 
-## 15:25 Presentation: Automated Testing (Continuous Integration) - 25'
+## 15:50 Presentation: Automated Testing - 45'
 
-- Introduction to tests
-- Running tests locally
-- Importance of automated testing in collaborative workflow: accept changes from others safely, without breaking your code
-- Introduction to Continuous Integration (CI) and Continuous Deployment (CD)
-- CI: automatically running tests on new code changes to ensure they don't break existing functionality
-- CD: automatically deploying code changes to production after passing tests
+Note: Content of this demo and the exercise is based on the [Code Refinery's Automated Testing lesson](https://coderefinery.github.io/testing/continuous-integration/), adapted to fit the context of this workshop.
 
-Type along: automate tests using Github actions. Show how to set up a simple workflow that runs tests on every pull request.
+- Motivation [3 min]
+    - Where does automated testing fit in the collaborative software dev workflow? 
+    - Show what we are working towards and how are we going to get there
 
-Aspects of both code quality control (Lint-style checks) and unit and regression tests can be run automatically. Live applications can also be deployed in response to actions on the repository. 
+- Introduction to testing [10 min]
+    - Experimental scientist and instrument calibration analogy for software tests
+    - Questions to participants about their experience with testing
+    - Examples of tests
 
-Provide a demo of CI & CD tasks using Github actions, showing tests both passing and failing in response to a PR.
+- [Demo] Running tests locally [10 min]
 
-Content of this demo and the exercise will be based on the [Code Refinery's Automated Testing lesson](https://coderefinery.github.io/testing/continuous-integration/), adapted to fit the context of this workshop.
+- Automated testing and Continuous Integration (CI) concepts [5 min]
 
-## 15:55 Exercise: Full Cycle Workflow - 30'
+- [Demo] Automating tests (implementing CI) using Github actions [10 min]
+
+- Q&A [5 min]
+
+- Explain exercise goals and instructions [5 min]
 
 
+## 16:25 Exercise: Implementing Continuous Integration - 30'
 
-## 16:20 Summary and Key Points / Q&A - 15'
+To do: Decide on the exercise
+
+## 16:55 Summary and Key Points / Q&A - 15'
 
 - Full cycle workflow for branching workflow 
 
@@ -215,6 +226,7 @@ Content of this demo and the exercise will be based on the [Code Refinery's Auto
 *Image source: [AeoLis GitHub developer docs](https://aeolis.readthedocs.io/en/update_documentation/developer/quickstart.html), licensed under [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)*
 
 
-## 16:45 Feedback - 5'
+## 17:10 Feedback - 5'
 
-## 16:45 Goodbye
+
+## 17:15 End
