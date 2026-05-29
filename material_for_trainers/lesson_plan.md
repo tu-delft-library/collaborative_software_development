@@ -126,7 +126,8 @@ Exercise 3: [Forking Workflow](../material_for_participants/exercises.md#3-forki
         - Spend time won what you can automate
         - Be hostile to individuals
 
-## 14:00 Live Demo: Code Reviews - 15'
+
+## 14:00 Live Demo: Code Reviews - 10'
 
 [Preparation]
 - Lead instructor creates a new repository named `code-review-demo` using the recipe book template as per the instructions for the code review exercise. 
@@ -135,16 +136,18 @@ Exercise 3: [Forking Workflow](../material_for_participants/exercises.md#3-forki
 
 [Demo] The lead instructor reviews the pull request, providing feedback and requesting changes. The co-instructor makes the requested changes, pushes them to their fork, and the lead instructor merges the pull request.
 
+- Explain exercise goals and instructions
 
-## 14:15 Exercise: Code Reviews - 20'
+
+## 14:10 Exercise: Code Reviews - 20'
 
 Exercise 4: [Code Reviews](../material_for_participants/exercises.md#4-code-reviews)
 
 
-## 14:35 Break - 10'
+## 14:30 Break - 10'
 
 
-## 14:45 Presentation: CONTRIBUTING document - 10'
+## 14:40 Presentation: CONTRIBUTING document - 10'
 
 Discussion:
 - Why contributing guidelines matter
@@ -152,7 +155,7 @@ Discussion:
 - The main components of a contributing guideline and adapting them depending on the project
 - Why contributors should follow guidelines
 
-## 14:55 Exercise: Guidelines for Contributors - 10'
+## 14:50 Exercise: Guidelines for Contributors - 10'
 
 [//]: # (Shaved 5' off this to catch up from time glitch in precious session)
 
@@ -161,7 +164,7 @@ Exercise 4.3: [Guidelines for Contributors](https://4turesearchdata-carpentries.
 1. Working individually, use the CONTRIBUTING.md template provided in [manuGil/fair-code](https://github.com/manuGil/fair-code) to add contributing guidelines to the repository used for individual exercises.
 2. Adapt the template to your repository as long as time allows it.
 
-## 15:05 Presentation: Software Licenses and Software Citation - 20'
+## 15:00 Presentation: Software Licenses and Software Citation - 20'
 
 Explain and discuss the importance of software licenses and software citation for software.
 
@@ -177,7 +180,7 @@ Explain how citations files are used to provide information about the software a
 
 Provide a demo on how to create .cff files using this [CFFInit Tool](https://citation-file-format.github.io/cff-initializer-javascript/)
 
-## 15:25 Exercise: Choosing Licenses and Enabling Software Citation - 15'
+## 15:20 Exercise: Choosing Licenses and Enabling Software Citation - 15'
 
 Exercise 4.4: [Choosing Licenses and Enabling Software Citation](https://4turesearchdata-carpentries.github.io/GitCoDev/exercises/L4-ex04.html)
 
@@ -186,10 +189,10 @@ Exercise 4.4: [Choosing Licenses and Enabling Software Citation](https://4turese
 3. Use this tool to generate a CITATION file and add it to your remote repository:
     - Search the Internet for: cffinit
 
-## 15:40 Break 10'
+## 15:35 Break 10'
 
 
-## 15:50 Presentation: Automated Testing - 45'
+## 15:45 Presentation: Automated Testing - 45'
 
 Note: Content of this demo and the exercise is based on the [Code Refinery's Automated Testing lesson](https://coderefinery.github.io/testing/continuous-integration/), adapted to fit the context of this workshop.
 
@@ -213,11 +216,11 @@ Note: Content of this demo and the exercise is based on the [Code Refinery's Aut
 - Explain exercise goals and instructions [5 min]
 
 
-## 16:25 Exercise: Implementing Continuous Integration - 30'
+## 16:20 Exercise: Implementing Continuous Integration - 30'
 
 To do: Decide on the exercise
 
-## 16:55 Summary and Key Points / Q&A - 15'
+## 16:50 Summary and Key Points / Q&A - 15'
 
 - Full cycle workflow for branching workflow 
 
@@ -226,7 +229,7 @@ To do: Decide on the exercise
 *Image source: [AeoLis GitHub developer docs](https://aeolis.readthedocs.io/en/update_documentation/developer/quickstart.html), licensed under [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)*
 
 
-## 17:10 Feedback - 5'
+## 17:05 Feedback - 5'
 
 
-## 17:15 End
+## 17:10 End
