@@ -192,9 +192,14 @@ Exercise 4.4: [Choosing Licenses and Enabling Software Citation](https://4turese
 
 Note: Content of this demo and the exercise is based on the [Code Refinery's Automated Testing lesson](https://coderefinery.github.io/testing/continuous-integration/), adapted to fit the context of this workshop.
 
-- Motivation [5 min]
+- Introduction [2 min]
+
+- [Demo] Motivation and looking together at a CI in action [15 min]
     - Where does automated testing fit in the collaborative software dev workflow? 
     - Show what we are working towards and how are we going to get there
+    - Show green tick symbol in exercise repo and make commits to fail and then pass the tests to show how it works in practice.
+    - Break down concepts: Automated testing = Testing + automation
+    - Building blocks: test, .yml file, putting it all together
 
 - Introduction to testing [5 min]
     - Experimental scientist and instrument calibration analogy for software tests
@@ -205,12 +210,9 @@ Note: Content of this demo and the exercise is based on the [Code Refinery's Aut
     - Refer to resources.md for more examples of tests for more complicated functions. It is not in the scope of this course to go into details of test design for various types of functions, but the goal is to give participants a sense of what tests look like and how they can be used to check the correctness of code. 
     - Running tests locally using pytest
 
-- [Demo] Automating tests (implementing CI) using Github actions [10 min]
-
-- Q&A [5 min]
-
 - Explain exercise goals and instructions [5 min]
 
+- Q&A [5 min]
 
 ## 16:20 Exercise: Implementing Continuous Integration - 35'
 
@@ -219,11 +221,14 @@ Exercise 5: [Implementing Continuous Integration](../material_for_participants/e
 
 ## 16:55 Summary and Key Points / Q&A - 15'
 
-- Full cycle workflow for branching workflow 
+- Branching workflow or forking workflow?
+- Code reviews, roles, and responsibilites
+- Automated testing 
 
-![Full workflow branching](../images/branching_workflow_full.png)
-
-*Image source: [AeoLis GitHub developer docs](https://aeolis.readthedocs.io/en/update_documentation/developer/quickstart.html), licensed under [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)*
+Where to go from here?
+- Check resources.md for more code examples, reading material, and inspiration on the topcis covered in this course.
+- Explore GitHub respositories of your favorite open source software projects to see how they implement collaborative software development, code reviews, contributing guidelines, and automated testing. You can learn a lot from just reading the commit messages, pull request description and how other review code, and their CI setup.
+- DCC open office hours for any questions/help/advice on implementing topics taught in this course in your projects: https://dcc.tudelft.nl/open-office-hours/
 
 
 ## 17:10 Feedback - 5'

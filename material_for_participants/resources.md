@@ -7,6 +7,13 @@ This file contains relevant material related to the concepts taught in the cours
 
 - https://tu-delft-dcc.github.io/docs/software/development_workflow/ 
 
+- Full cycle workflow for branching workflow 
+
+![Full workflow branching](../images/branching_workflow_full.png)
+
+*Image source: [AeoLis GitHub developer docs](https://aeolis.readthedocs.io/en/update_documentation/developer/quickstart.html), licensed under [GPL 3.0](https://www.gnu.org/licenses/gpl-3.0.en.html)*
+
+
 
 ### TU Delft Policies and Guidelines
 
