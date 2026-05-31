@@ -80,13 +80,9 @@ Exercise in which participants:
     - Preparation: The co-instructor creates a repository named `forking-workflow-demo` using the [recipe-book template](https://github.com/tu-delft-library/recipe-book-template) and does not add the lead instructor as a collaborator.
     - The lead instructor wishes to contribute to this newly created repository but doesn't have write access. They clone the repository and push a feature branch. This results in push being rejected. 
 
-- Explain clone vs fork using a diagram [10 min]
-
-![Fork and Clone workflow](../images/forkandclone.png)
-
-*Image source: [CodeRefinery Git Collaborative lesson](https://coderefinery.github.io/git-collaborative/concepts/), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)*
-
 - [Demo] Contributing changes to repository in the earlier step using the forking workflow [15 min]
+
+- [Slides] Explain clone vs fork and forking workflow [10 min]
 
 - Summarize forking workflow [3 min]
 
