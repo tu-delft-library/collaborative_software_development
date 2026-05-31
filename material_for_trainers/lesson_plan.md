@@ -228,7 +228,7 @@ Exercise 5: [Implementing Continuous Integration](../material_for_participants/e
 Where to go from here?
 - Check resources.md for more code examples, reading material, and inspiration on the topcis covered in this course.
 - Explore GitHub respositories of your favorite open source software projects to see how they implement collaborative software development, code reviews, contributing guidelines, and automated testing. You can learn a lot from just reading the commit messages, pull request description and how other review code, and their CI setup.
-- DCC open office hours for any questions/help/advice on implementing topics taught in this course in your projects: https://dcc.tudelft.nl/open-office-hours/
+- DCC open office hours: If you have any questions related to implementing the concepts taught in this course in your projects, you are welcome to attend the open office hours where you can discuss your questions with me or one of my colleagues. See this link for more information and for making an appointment https://www.tudelft.nl/digital-competence-centre/services/code-data-office-hours
 
 
 ## 17:10 Feedback - 5'
