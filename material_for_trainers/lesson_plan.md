@@ -77,10 +77,14 @@ Exercise in which participants:
    - Scenario: When you don't have permissions to push to the original repository, or when you want to contribute to a project without being a collaborator
 
 - [Demo] Failed push to a repository to explain why forking is necessary in some cases [5 min]
-    - Preparation: The co-instructor creates a repository named `forking-workflow-demo` using the [recipe-book template](https://github.com/tu-delft-library/recipe-book-template) and does not add the lead instructor as a collaborator.
-    - The lead instructor wishes to contribute to this newly created repository but doesn't have write access. They clone the repository and push a feature branch. This results in push being rejected. 
+    - [Preparation] The co-instructor creates a repository named `forking-workflow-demo` using the [recipe-book template](https://github.com/tu-delft-library/recipe-book-template) and does not add the lead instructor as a collaborator. To create the repository from a template, the co-instructor clicks on the "use the template" button on the template repository page, fills in the repository name and other details, and creates the repository. See this [link](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for more details on how to create a repository from a template. 
+    - The co-instructor then shares the link to the newly created repository with the lead instructor. 
+    - The lead instructor wishes to contribute a new recipe, so they clone the repository to their local machine, creates a new branch, adds the new recipe, commits the changes, and tries to push the changes to the original repository on GitHub. However, since the lead instructor does not have write access to the original repository, the push is rejected by GitHub.
+    - The lead instructor then explains why the push was rejected and introduces the concept of forking as a solution to this problem.
 
-- [Demo] Contributing changes to repository in the earlier step using the forking workflow [15 min]
+- [Demo] Forking workflow demo [15 min]
+    - The lead instructor demonstrates the forking workflow by forking the `forking-workflow-demo` repository from the previous step to their own GitHub account, cloning the forked repository to their local machine, creating a new branch, adding a new recipe, committing and pushing the changes to their fork on GitHub, and then creating a pull request from their branch in their fork to the main branch of the upstream `forking-workflow-demo` repository. 
+    - The lead instructor then explains each step of the process and highlights important concepts such as upstream repository, remote, origin, fork, and pull request.
 
 - [Slides] Explain clone vs fork and forking workflow [10 min]
     - Terminlogies: Upstream repository, remote, origin, fork, pull request  
