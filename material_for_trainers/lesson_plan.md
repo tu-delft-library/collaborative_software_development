@@ -194,7 +194,7 @@ Note: Content of this demo and the exercise is based on the [Code Refinery's Aut
 
 - Introduction [2 min]
 
-- [Demo] Motivation and looking together at a CI in action [15 min]
+- [Demo] Motivation and looking together at a CI workflow in action [15 min]
     - Where does automated testing fit in the collaborative software dev workflow? 
     - Show what we are working towards and how are we going to get there
     - Show green tick symbol in exercise repo and make commits to fail and then pass the tests to show how it works in practice.
@@ -206,9 +206,10 @@ Note: Content of this demo and the exercise is based on the [Code Refinery's Aut
     - Questions to participants about their experience with testing
 
 - [Demo] Examples of tests [15 min]
-    - Adding two numbers, farenheit to celsius converter, a string occurrence counter . 
-    - Refer to resources.md for more examples of tests for more complicated functions. It is not in the scope of this course to go into details of test design for various types of functions, but the goal is to give participants a sense of what tests look like and how they can be used to check the correctness of code. 
+    - Adding two numbers, farenheit to celsius converter
+    - See testing section of resources.md for more examples of tests for impure functions. It is not in the scope of this course to go into details of test design for various types of functions, but the goal is to give participants a sense of what tests look like, how they can be used to check the correctness of code, and how does automated testing fits in the collaborative software development workflow. 
     - Running tests locally using pytest
+    - Modifying code to make tests fail and then fixing the code to make the tests pass again
 
 - Explain exercise goals and instructions [5 min]
 

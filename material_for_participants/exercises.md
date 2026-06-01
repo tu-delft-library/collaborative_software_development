@@ -45,15 +45,17 @@ Exercise goal: Practice the forking workflow, which is a common workflow for con
 
 #### Exercise prep
 
-1. **The maintainer**: Creates an exercise repository called `forking-workflow-exercise` by generating from a template using this template: https://github.com/tu-delft-library/recipe-book-template 
+Each team assigns one person as the project owner. 
+
+1. **Project owner**: Creates an exercise repository called `forking-workflow-exercise` by generating from a template using this template: https://github.com/tu-delft-library/recipe-book-template 
 
 In this case we do not add collaborators to the repository (this is the point of this exercise).
 
-2. **The maintainer**: Shares the link to the newly created repository with your group.
+2. **Project owner**: Shares the link to the newly created repository with your group.
 
-3. **Learners in exercise team**: Fork the newly created repository (the one created by the maintainer) and then clone your fork. 
+3. **Rest of the team members**: Fork the newly created repository (the one created by the maintainer) and then clone your fork. 
 
-4. **The maintainer**: Forks the neighboring team’s repository and clones the fork to their local machine. This is to ensure that the maintainer can also practice the forking workflow and experience the process from the perspective of a contributor.
+4. **Project owner**: Forks the neighboring team’s repository and clones the fork to their local machine. This is to ensure that the project owner can also practice the forking workflow and experience the process from the perspective of a collaborator.
 
 
 #### Exercise tasks:
@@ -70,7 +72,7 @@ In this case we do not add collaborators to the repository (this is the point of
 
 6. Open a pull request from your branch in your fork to the main branch of the upstream exercise repository. In the pull request description, reference the issue you opened in the upstream repository.
 
-7. Team leaders will merge the pull requests. (Check this: During the review, pay attention to the automated test step (here for demonstration purposes, we test whether the recipe contains an ingredients and an instructions sections).
+7. The project owner will merge the pull requests. 
 
 8. After few pull requests are merged, update your fork with the changes.
 
