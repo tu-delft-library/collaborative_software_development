@@ -94,11 +94,8 @@ Exercise in which participants:
 - Q&A [5 min]
 
 - Explain exercise goals [5 min]
-    - Explain generating from template (like a cookiecutter) to create a new repository for the exercise
-    - ![Generating from template](../images/generate_from_template.png)
-
-*Image source: [CodeRefinery Git Collaborative lesson](https://coderefinery.github.io/git-collaborative/concepts/#generating-from-templates), licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)*
-
+    - Explain generating from template (like a cookiecutter) to create a new repository for the exercise. 
+    
 
 ## 12:20 Exercise: Forking Workflow - 25'
 
