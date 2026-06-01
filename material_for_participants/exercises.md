@@ -43,7 +43,7 @@ Working as a team, merge the changes made in the previous exercise into the main
 Exercise goal: Practice the forking workflow, which is a common workflow for contributing to open source projects where you don't have write access to the original repository.
 
 
-#### Exercise prep
+### Exercise prep
 
 Each team assigns one person as the project owner. 
 
@@ -59,7 +59,7 @@ Each team assigns one person as the project owner.
 
 4. **Project owner**: Forks the neighboring team’s project owner's repository and clones the fork to their local machine. This is to ensure that the project owner can also practice the forking workflow and experience the process from the perspective of a collaborator.
 
-#### Exercise tasks:
+### Exercise tasks:
 
 At this stage everyone has a forked copy of the upstream repository on their GitHub account and a local clone of their forked repository on their machine. Now we will practice contributing changes to the upstream repository using the forking workflow.
 
@@ -86,6 +86,12 @@ At this stage everyone has a forked copy of the upstream repository on their Git
 
 Exercise goal: Working in teams. Practice reviewing code in pull requests created in the previous exercise. 
 Continue working on the same repository as in the previous exercise.
+
+### Exercise prep 
+Continue working on the same repository as in the previous exercise (`forking-workflow-exercise` repository)
+
+
+### Exercise tasks
 
 1. Go to your local clone of your forked repository and create a new feature branch and one or few commits making changes to a recipe. In these commits, change something in a recipe, but also deliberately introduce a typo or a mistake which we will want to fix during the code review.
 
@@ -122,6 +128,9 @@ Working individually. Add a license and citation files to the repository used in
 This exercise integrates many of the skills you have learned today and lets you practice using Github Actions to automate software tests.
 
 For this part of the course, we use the exercise [CodeRefinery Full-cycle collaborative workflow](https://coderefinery.github.io/testing/full-cycle-ci/#). Please see details of the exercise there.
+
+
+(To do: Add instructions for Step 2: Run test locally uisng pytest)
 
 
 ## Where to go from here
