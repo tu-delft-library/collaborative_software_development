@@ -83,6 +83,7 @@ Exercise in which participants:
 - [Demo] Contributing changes to repository in the earlier step using the forking workflow [15 min]
 
 - [Slides] Explain clone vs fork and forking workflow [10 min]
+    - Terminlogies: Upstream repository, remote, origin, fork, pull request  
 
 - Summarize forking workflow [3 min]
 
