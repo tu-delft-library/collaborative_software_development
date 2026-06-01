@@ -5,6 +5,10 @@
 - ✅ Roll call + 🤝 Code of Conduct
 - 🖥 Did everyone install Git and have a Github account? 
 - 🙋Getting help (🆘 red  ✅ green stickers)
+- The concept of this course:
+  - Less new tech material
+  - More "bringing it together" in good practice
+  - Working in groups to share experience and skills
 
 ## 09:20 Icebreaker - 5'
 A short icebreaker from [resources document](https://tud365.sharepoint.com/:w:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/resources.docx?d=waea671d7fc6a46d5b5c068fc19f41940&csf=1&web=1&e=f2QYgy)
@@ -16,17 +20,27 @@ A short icebreaker from [resources document](https://tud365.sharepoint.com/:w:/r
 - Git hosting options: Github / Gitlab / Others
 
 ## 09:45 Live Demo: Setting Up - 25' 
+
+- git config
+- Test SSH key
+  - ssh -T git@github.com 
 - Install SSH key
-- Publish local repo to github
-  - Create local repo in candidates' location of choice
+  - ssh-keygen -t ed25519 -C [email address]
+  - No passphrase
+  - cat ~/.ssh/id_ed25519.pub
+  - Install in github
+  - Test again
+- ~~Publish local repo to github~~
+  - ~~Create local repo in candidates' location of choice~~
 - Explore Github GUI
+- Create initial repo on github from recipe book template  
+- Clone to local
 - Collaborating
 
 ## 10:10 Break - 10'
 
 ## 10:20 Presentation - Collaborative Software Projects - 10'
 
-[//]: # (TODO slides)
 
 Present from [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServices/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B06a41ff9-049e-480e-a180-dbef81488b8c%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1774444252296&web=1)
 
@@ -35,16 +49,20 @@ Present from [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServ
 - Open vs closed collaboration
 - Considerations in open collaboration for RSE
 - When does collaborative development make sense?
+- Roles and Responsibilities in the team
 
 ## 10:30 Live Demo: Github issues and branching - 10'
+- Add collaborators (i.e. co-trainer) to demo repository in github
 - Create issues - participant teams create in the cloned template repo from earlier
+  - Navigate to repo in github
+  - Click on 'Issues'
+  - Click 'New Issue' and follow workflow
 - Explain workflow possibilities:
     - **Branching**
     - **Forking**
 
 ## 11:40 Exercise: Branching Workflow - 20'
 
-[//]: # (Consider a new template repo - probaby not necessary here)
 
 Exercise 1: [Branching Workflow](../material_for_participants/exercises.md)
 
