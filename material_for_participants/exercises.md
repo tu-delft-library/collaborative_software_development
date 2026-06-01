@@ -72,7 +72,7 @@ In this case we do not add collaborators to the repository (this is the point of
 
 6. Open a pull request from your branch in your fork to the main branch of the upstream exercise repository. In the pull request description, reference the issue you opened in the upstream repository.
 
-7. Team leaders will merge the pull requests. 
+7. The project owner will merge the pull requests. 
 
 8. After few pull requests are merged, update your fork with the changes.
 
