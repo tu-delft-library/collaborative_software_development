@@ -51,7 +51,7 @@ Each team assigns one person as the project owner.
 
 **IMPORTANT**: In this case the project owner does not add collaborators to the repository. This is the point of this exercise.
 
-2. **Project owner**: Shares the link to the newly created repository with their group. This repository will henceforth be called the "upstream repository". 
+2. **Project owner**: Shares the link to the newly created repository with their group. This repository will henceforth be called the `upstream repository`. 
 
 3. **Rest of the team members**: Fork the upstream repository to their own GitHub accounts. This can be done by navigating to the upstream repository on GitHub and clicking on the "Fork" button in the top right corner of the page. This will create a copy of the upstream repository in each team member's GitHub account, which is called a "fork". Each team member will have their own forked repository that they can work on independently. Check that you can see the forked repository in your GitHub account after forking with a URL like this: `https://github.com/<your-username>/forking-workflow-exercise`
 
@@ -63,21 +63,23 @@ Each team assigns one person as the project owner.
 
 At this stage everyone has a forked copy of the upstream repository on their GitHub account and a local clone of their forked repository on their machine. Now we will practice contributing changes to the upstream repository using the forking workflow.
 
-1. Open an issue in the upstream exercise repository where you describe the change you want to make, for example, add a new recipe or modify an existing one. Take note of the issue number. Make sure you open the issue in the upstream repository and not in your fork.
+1. Open an issue in the upstream exercise repository (the original repository created by the project owner) where you describe the change you want to make, for example, add a new recipe or modify an existing one. Take note of the issue number. Make sure you open the issue in the upstream repository and not in your fork.
 
-2. Go to your clone of your forked repository on your local machine, create a new branch for the change you want to make (`git checkout -b <branch-name> main`) where `<branch-name>` is a descriptive name for the branch, for example `add-recipe-xyz` or `fix-recipe-xyz`.
+2. Go to your clone of your forked repository on your local machine. **IMPORTANT** make sure you are on the right clone. To check this, run `git remote -v` in your terminal and it should show the URL of your forked repository (`https://github.com/<your-username>/forking-workflow-exercise`).
 
-3. Make a change to the recipe book on your branch and commit the changes (`git commit -m "Your commit message"`) and in the commit message cross-reference the issue you opened. For example, if the issue number is 5, you can write in your commit message: "Fixes #5: Add recipe for XYZ". 
+3. Create a new branch for the change you want to make (`git checkout -b <branch-name> main`) where `<branch-name>` is a descriptive name for the branch, for example `add-recipe-xyz` or `fix-recipe-xyz`.
 
-4. Push the branch to your fork on GitHub (`git push origin <branch-name>`). Check whether the branch is visible in your fork on GitHub.
+4. Make a change to the recipe book on your branch and commit the changes (`git commit -m "Your commit message"`) and in the commit message cross-reference the issue you opened. For example, if the issue number is 5, you can write in your commit message: "Fixes #5: Add recipe for XYZ". 
 
-5. Open a pull request from your branch in your fork to the main branch of the upstream exercise repository. This can be done through the GitHub web interface by navigating to your forked repository, switching to the branch you just pushed, and clicking on the "Compare & pull request" button. In the pull request description, reference the issue you opened in the upstream repository. For example, you can write: "This pull request addresses issue #5 by adding a recipe for XYZ". 
+5. Push the branch to your fork on GitHub (`git push origin <branch-name>`). Check whether the branch is visible in your fork on GitHub.
 
-6. The project owner will merge the pull requests one be one.
+6. Open a pull request from your branch in your fork to the main branch of the upstream exercise repository. This can be done through the GitHub web interface by navigating to your forked repository, switching to the branch you just pushed, and clicking on the "Compare & pull request" button. In the pull request description, reference the issue you opened in the upstream repository. For example, you can write: "This pull request addresses issue #5 by adding a recipe for XYZ". 
 
-7. After the project owner merges a few pull requests, your fork will be out of sync with the upstream repository. To get the latest changes from the upstream repository, you need to update your fork with the latest changes from the upstream repository. This can be done using the button `sync fork` in the GitHub web interface of your forked repository. This will ensure that your fork is up to date with the latest changes from the upstream repository.
+7. The project owner will merge the pull requests one be one.
 
-8. After updating your fork, check that in your fork you can see changes from other people’s pull requests.
+8. After the project owner merges a few pull requests, your fork will be out of sync with the upstream repository. To get the latest changes from the upstream repository, you need to update your fork with the latest changes from the upstream repository. This can be done using the button `sync fork` in the GitHub web interface of your forked repository. This will ensure that your fork is up to date with the latest changes from the upstream repository.
+
+9. After updating your fork, check that in your fork you can see changes from other people’s pull requests.
 
 
 ## 4. Code Reviews
