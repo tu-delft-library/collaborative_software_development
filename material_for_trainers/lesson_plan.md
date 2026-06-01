@@ -198,7 +198,7 @@ Exercise 4.4: [Choosing Licenses and Enabling Software Citation](https://4turese
 Note: Content of this demo and the exercise is based on the [Code Refinery's Automated Testing lesson](https://coderefinery.github.io/testing/continuous-integration/), adapted to fit the context of this workshop.
 
 - Introduction [2 min]
-    - So far we learned how to collaborate on software development projects productively and efficiently, but we haven't talked abotu how we can do so safely, how we can make sure that the changes we are contributing to a project do not break the code or introduce bugs. This is where automated testing comes in.
+    - So far we learned how to collaborate on software development projects productively and efficiently. Despite following good practices for collaborating in software development, it is still possible to accidentally introduce bugs while developing software collaboratively. This is where automated testing can help us.
 
 - [Demo] Motivation and looking together at an automated testing workflow in action [15 min]
     - Where does automated testing fit in the collaborative software dev workflow?
@@ -210,16 +210,16 @@ Note: Content of this demo and the exercise is based on the [Code Refinery's Aut
         - Building blocks: test (check_recipes.py), .yml file, putting it all together
 
 - Introduction to testing [5 min]
-    - Experimental scientist and instrument calibration analogy for software tests
+    - Experimental scientist and instrument calibration analogy for software tests (Source: [Code Refinery testing lesson](https://coderefinery.github.io/testing/motivation/#untested-software-can-be-compared-to-uncalibrated-detectors))
     - Questions to participants about their experience with testing
         - Where would you start adding a test in an existing project?
         - How and when do you test?
 
 - [Demo] Examples of tests [15 min]
-    - Instructor shows two examples on how to write tests: adding two numbers, farenheit to celsius converter (taken form Code Refinery testing lesson). This is purely a demo, no type along. Instructor prepares the files for this demo using the examples mentioned in the Code Refinery testing lesson https://coderefinery.github.io/testing/motivation/ . We cover two examples here: adding two numbers (basic example) and converting farenheit to celsius (asserting floating point numbers)
-    - Briefly explain the structure of a test, how to run tests locally, and how to interpret the results. 
-    - Mention pure and impure functions and how testing impure functions can be more complex.
-    - See testing section of resources.md for more examples of tests for impure functions. It is not in the scope of this course to go into details of test design for various types of functions, but the goal is to give participants a sense of what tests look like, how they can be used to check the correctness of code, and how does automated testing fits in the collaborative software development workflow. 
+    - Instructor shows two examples on how to write tests: adding two numbers, farenheit to celsius converter (sourced from Code Refinery testing lesson). This is a demo, not a type along. The instructor needs a working python setup on their computer, and prepares the files for this demo using the examples mentioned in the Code Refinery testing lesson https://coderefinery.github.io/testing/motivation/. We cover two examples here: adding two numbers (basic example) and converting farenheit to celsius (asserting floating point numbers)
+    - Explain the structure of a test, how to run tests locally, and how to interpret the results. 
+    - Briefly mention pure and impure functions and how testing impure functions can be more complex. We do not go into details of test design for different types of fucntions. 
+    - Refer learners to the testing section of resources.md for more examples of tests for impure functions. It is not in the scope of this course to go into details of test design for various types of functions, but the goal is to give participants a sense of what tests look like, how they can be used to check the correctness of code, and how does automated testing fits in the collaborative software development workflow. 
     - Running tests locally using pytest
         - Create a python virtual environment using venv or conda, activate it, and install pytest using pip. Then run the tests using the command `pytest` in the terminal.
         - Modifying code to make tests fail and then fixing the code to make the tests pass again
