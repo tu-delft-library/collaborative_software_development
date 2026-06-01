@@ -130,7 +130,9 @@ This exercise integrates many of the skills you have learned today and lets you 
 For this part of the course, we use the exercise [CodeRefinery Full-cycle collaborative workflow](https://coderefinery.github.io/testing/full-cycle-ci/#). Please see details of the exercise there.
 
 
-(To do: Add instructions for Step 2: Run test locally uisng pytest)
+#### Running the tests locally
+
+- Create a python virtual environment using venv or conda, activate it, and install pytest using pip. Then run the tests using the command `pytest` in the terminal. 
 
 
 ## Where to go from here

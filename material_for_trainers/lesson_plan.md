@@ -198,23 +198,31 @@ Exercise 4.4: [Choosing Licenses and Enabling Software Citation](https://4turese
 Note: Content of this demo and the exercise is based on the [Code Refinery's Automated Testing lesson](https://coderefinery.github.io/testing/continuous-integration/), adapted to fit the context of this workshop.
 
 - Introduction [2 min]
+    - So far we learned how to collaborate on software development projects productively and efficiently, but we haven't talked abotu how we can do so safely, how we can make sure that the changes we are contributing to a project do not break the code or introduce bugs. This is where automated testing comes in.
 
-- [Demo] Motivation and looking together at a CI workflow in action [15 min]
-    - Where does automated testing fit in the collaborative software dev workflow? 
-    - Show what we are working towards and how are we going to get there
-    - Show green tick symbol in exercise repo and make commits to fail and then pass the tests to show how it works in practice.
-    - Break down concepts: Automated testing = Testing + automation
-    - Building blocks: test, .yml file, putting it all together
+- [Demo] Motivation and looking together at an automated testing workflow in action [15 min]
+    - Where does automated testing fit in the collaborative software dev workflow?
+        -  Instructor answers this question by showing how automated testing setup in the exercise repository is implemented and how it works. 
+    - Show what we are working towards and how are we going to get there?
+        - The recipe-book respotory implementes a automated test that checks if the recipe files have Ingredients and Instructions sections. The instructor shows how this test is implemented, where the .yml file that defines the automated testing workflow is located, and how the test is run automatically when a pull request is created.   
+        - Show green tick symbol in exercise repo and make commits to fail and then pass the tests to show how it works in practice.
+        - Break down concepts: Automated testing = Testing + automation
+        - Building blocks: test (check_recipes.py), .yml file, putting it all together
 
 - Introduction to testing [5 min]
     - Experimental scientist and instrument calibration analogy for software tests
     - Questions to participants about their experience with testing
+        - Where would you start adding a test in an existing project?
+        - How and when do you test?
 
 - [Demo] Examples of tests [15 min]
-    - Adding two numbers, farenheit to celsius converter
+    - Instructor shows two examples on how to write tests: adding two numbers, farenheit to celsius converter (taken form Code Refinery testing lesson). This is purely a demo, no type along. Instructor prepares the files for this demo using the examples mentioned in the Code Refinery testing lesson https://coderefinery.github.io/testing/motivation/ . We cover two examples here: adding two numbers (basic example) and converting farenheit to celsius (asserting floating point numbers)
+    - Briefly explain the structure of a test, how to run tests locally, and how to interpret the results. 
+    - Mention pure and impure functions and how testing impure functions can be more complex.
     - See testing section of resources.md for more examples of tests for impure functions. It is not in the scope of this course to go into details of test design for various types of functions, but the goal is to give participants a sense of what tests look like, how they can be used to check the correctness of code, and how does automated testing fits in the collaborative software development workflow. 
     - Running tests locally using pytest
-    - Modifying code to make tests fail and then fixing the code to make the tests pass again
+        - Create a python virtual environment using venv or conda, activate it, and install pytest using pip. Then run the tests using the command `pytest` in the terminal.
+        - Modifying code to make tests fail and then fixing the code to make the tests pass again
 
 - Explain exercise goals and instructions [5 min]
 
