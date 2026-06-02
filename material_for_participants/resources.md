@@ -31,7 +31,11 @@ This file contains relevant material related to the concepts taught in the cours
 
 - Open Source Guides https://opensource.guide 
 
-FAIR Resources
+### FAIR Resources
+
+- Adding Contributor guidelines https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors
+
+- Adding a license file in Github https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository
 
 - OSI License guide https://opensource.org/licenses
 

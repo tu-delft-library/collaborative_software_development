@@ -61,7 +61,7 @@ Present from [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServ
     - **Branching**
     - **Forking**
 
-## 11:40 Exercise: Branching Workflow - 20'
+## 11:40 Exercise 1: Branching Workflow - 20'
 
 
 Exercise 1: [Branching Workflow](../material_for_participants/exercises.md)
@@ -80,7 +80,7 @@ Exercise in which participants:
 ## 11:20 Live Demo: Pull Requests - 10'
 Explain pull requests and demonstrate the workflow around creating, reviewing and merging
 
-## 11:30 Exercise: Pull Requests - 15'
+## 11:30 Exercise 2: Pull Requests - 15'
 
 Exercise 2: [Pull Requests](../material_for_participants/exercises.md)
 
@@ -115,7 +115,7 @@ Exercise in which participants:
     - Explain generating from template (like a cookiecutter) to create a new repository for the exercise. 
     
 
-## 12:20 Exercise: Forking Workflow - 25'
+## 12:20 Exercise 3: Forking Workflow - 25'
 
 Exercise 3: [Forking Workflow](../material_for_participants/exercises.md#3-forking-workflow)
 
@@ -155,7 +155,7 @@ Exercise 3: [Forking Workflow](../material_for_participants/exercises.md#3-forki
 - Explain exercise goals and instructions
 
 
-## 14:10 Exercise: Code Reviews - 20'
+## 14:10 Exercise 4: Code Reviews - 20'
 
 Exercise 4: [Code Reviews](../material_for_participants/exercises.md#4-code-reviews)
 
@@ -181,11 +181,9 @@ Discussion:
   - Collegiality
   - Process and product quality
 
-## 14:50 Exercise: Guidelines for Contributors - 10'
+## 14:50 Exercise 5: Guidelines for Contributors - 10'
 
-[//]: # (Shaved 5' off this to catch up from time glitch in precious session)
-
-Exercise 4.3: [Guidelines for Contributors](https://4turesearchdata-carpentries.github.io/GitCoDev/exercises/L4-ex03.html)
+Exercise 5: [Guidelines for Contributors](https://4turesearchdata-carpentries.github.io/GitCoDev/exercises/L4-ex03.html)
 
 1. Working individually, use the CONTRIBUTING.md template provided in [manuGil/fair-code](https://github.com/manuGil/fair-code) to add contributing guidelines to the repository used for individual exercises.
 2. Adapt the template to your repository as long as time allows it.
@@ -210,7 +208,7 @@ Explain how citations files are used to provide information about the software a
 
 Provide a demo on how to create .cff files using this [CFFInit Tool](https://citation-file-format.github.io/cff-initializer-javascript/)
 
-## 15:20 Exercise: Choosing Licenses and Enabling Software Citation - 15'
+## 15:20 Exercise 6: Choosing Licenses and Enabling Software Citation - 15'
 
 Exercise 4.4: [Choosing Licenses and Enabling Software Citation](https://4turesearchdata-carpentries.github.io/GitCoDev/exercises/L4-ex04.html)
 
@@ -257,7 +255,7 @@ Note: Content of this demo and the exercise is based on the [Code Refinery's Aut
 
 - Q&A [5 min]
 
-## 16:20 Exercise: Implementing Continuous Integration - 35'
+## 16:20 Exercise 7: Implementing Continuous Integration - 35'
 
 Exercise 5: [Implementing Continuous Integration](../material_for_participants/exercises.md#5-implementing-continuous-integration)
 
