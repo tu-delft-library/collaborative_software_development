@@ -13,13 +13,13 @@
 ## 09:20 Icebreaker - 5'
 A short icebreaker from [resources document](https://tud365.sharepoint.com/:w:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/resources.docx?d=waea671d7fc6a46d5b5c068fc19f41940&csf=1&web=1&e=f2QYgy)
 
-## 09:25 Introduction - 20'
+## 09:25 Introduction - 15'
 - Introduce the subject of collaborative development using [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServices/Gedeelde%20documenten/Training/Research_Software_Training/lesson_plans/resources/Collaborative%20Software%20Development.pptx?d=w06a41ff9049e480ea180dbef81488b8c&csf=1&web=1&e=1seegV)
 - Why collaborative 🤝 software development
 - Review remote operations (clone / pull / push)
 - Git hosting options: Github / Gitlab / Others
 
-## 09:45 Live Demo: Setting Up - 25' 
+## 09:40 Live Demo: Setting Up - 20' 
 
 - git config
 - Test SSH key
@@ -37,9 +37,9 @@ A short icebreaker from [resources document](https://tud365.sharepoint.com/:w:/r
 - Clone to local
 - Collaborating
 
-## 10:10 Break - 10'
+## 10:00 Break - 10'
 
-## 10:20 Presentation - Collaborative Software Projects - 10'
+## 10:10 Presentation - Collaborative Software Projects - 10'
 
 
 Present from [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServices/_layouts/15/Doc2.aspx?action=edit&sourcedoc=%7B06a41ff9-049e-480e-a180-dbef81488b8c%7D&wdOrigin=TEAMS-MAGLEV.teamsSdk_ns.rwc&wdExp=TEAMS-TREATMENT&wdhostclicktime=1774444252296&web=1)
@@ -51,7 +51,7 @@ Present from [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServ
 - When does collaborative development make sense?
 - Roles and Responsibilities in the team
 
-## 10:30 Live Demo: Github issues and branching - 10'
+## 10:20 Live Demo: Github issues and branching - 10'
 - Add collaborators (i.e. co-trainer) to demo repository in github
 - Create issues - participant teams create in the cloned template repo from earlier
   - Navigate to repo in github
@@ -61,7 +61,7 @@ Present from [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServ
     - **Branching**
     - **Forking**
 
-## 11:40 Exercise 1: Branching Workflow - 20'
+## 10:30 Exercise 1: Branching Workflow - 25'
 
 
 Exercise 1: [Branching Workflow](../material_for_participants/exercises.md)
@@ -75,12 +75,12 @@ Exercise in which participants:
 - Make changes locally
 - Commit and push changes to github
 
-## 11:10 Break - 10'
+## 10:55 Break - 10'
 
-## 11:20 Live Demo: Pull Requests - 10'
+## 11:05 Live Demo: Pull Requests - 10'
 Explain pull requests and demonstrate the workflow around creating, reviewing and merging
 
-## 11:30 Exercise 2: Pull Requests - 15'
+## 11:15 Exercise 2: Pull Requests - 15'
 
 Exercise 2: [Pull Requests](../material_for_participants/exercises.md)
 
@@ -89,7 +89,7 @@ Exercise in which participants:
 - Create pull requests for the issues above
 - Merge the PRs, resolving any conflicts that emerge
 
-## 11:45 Live Demo: Forking Workflow - 40'
+## 11:30 Live Demo: Forking Workflow - 30'
 
 - Motivation and learning goals [2 min]
    - Scenario: When you don't have permissions to push to the original repository, or when you want to contribute to a project without being a collaborator
@@ -115,18 +115,18 @@ Exercise in which participants:
     - Explain generating from template (like a cookiecutter) to create a new repository for the exercise. 
     
 
-## 12:20 Exercise 3: Forking Workflow - 25'
+## 12:00 Exercise 3: Forking Workflow - 25'
 
 Exercise 3: [Forking Workflow](../material_for_participants/exercises.md#3-forking-workflow)
 
-## 12:45 Lunch - 60'
+## 12:25 Lunch - 60'
 
-## 13:45 Q&A Forking workflow and summary - 10'
+## 13:25 Q&A Forking workflow and summary - 5'
 
 - When should you use the forking workflow vs the branching workflow?
 - Questions? 
 
-## 13:55 Code Reviews - 5'
+## 13:30 Code Reviews - 5'
 
 - Why Code Reviews?
     - Sharing knowledge
@@ -143,7 +143,7 @@ Exercise 3: [Forking Workflow](../material_for_participants/exercises.md#3-forki
         - Be hostile to individuals
 
 
-## 14:00 Live Demo: Code Reviews - 10'
+## 13:35 Live Demo: Code Reviews - 10'
 
 [Preparation]
 - Lead instructor creates a new repository named `code-review-demo` using the recipe book template as per the instructions for the code review exercise. 
@@ -155,15 +155,15 @@ Exercise 3: [Forking Workflow](../material_for_participants/exercises.md#3-forki
 - Explain exercise goals and instructions
 
 
-## 14:10 Exercise 4: Code Reviews - 20'
+## 13:45 Exercise 4: Code Reviews - 20'
 
 Exercise 4: [Code Reviews](../material_for_participants/exercises.md#4-code-reviews)
 
 
-## 14:30 Break - 10'
+## 14:05 Break - 10'
 
 
-## 14:40 Presentation: CONTRIBUTING document - 10'
+## 14:15 Presentation: CONTRIBUTING document - 10'
 
 Discussion:
 - Why contributing guidelines matter
@@ -181,14 +181,14 @@ Discussion:
   - Collegiality
   - Process and product quality
 
-## 14:50 Exercise 5: Guidelines for Contributors - 10'
+## 14:25 Exercise 5: Guidelines for Contributors - 15'
 
 Exercise 5: [Guidelines for Contributors](https://4turesearchdata-carpentries.github.io/GitCoDev/exercises/L4-ex03.html)
 
-1. Working individually, use the CONTRIBUTING.md template provided in [manuGil/fair-code](https://github.com/manuGil/fair-code) to add contributing guidelines to the repository used for individual exercises.
+1. Working as a group, use the CONTRIBUTING.md template provided in [manuGil/fair-code](https://github.com/manuGil/fair-code) to add contributing guidelines to the repository used for individual exercises.
 2. Adapt the template to your repository as long as time allows it.
 
-## 15:00 Presentation: Software Licenses and Software Citation - 20'
+## 14:40 Presentation: Software Licenses and Software Citation - 10'
 
 Explain and discuss the importance of software licenses and software citation for software.
 
@@ -208,7 +208,7 @@ Explain how citations files are used to provide information about the software a
 
 Provide a demo on how to create .cff files using this [CFFInit Tool](https://citation-file-format.github.io/cff-initializer-javascript/)
 
-## 15:20 Exercise 6: Choosing Licenses and Enabling Software Citation - 15'
+## 14:50 Exercise 6: Choosing Licenses and Enabling Software Citation - 15'
 
 Exercise 4.4: [Choosing Licenses and Enabling Software Citation](https://4turesearchdata-carpentries.github.io/GitCoDev/exercises/L4-ex04.html)
 
@@ -217,10 +217,10 @@ Exercise 4.4: [Choosing Licenses and Enabling Software Citation](https://4turese
 3. Use this tool to generate a CITATION file and add it to your remote repository:
     - Search the Internet for: cffinit
 
-## 15:35 Break 10'
+## 15:05 Break 10'
 
 
-## 15:45 Presentation: Automated Testing - 45'
+## 15:15 Presentation: Automated Testing - 30'
 
 Note: Content of this demo and the exercise is based on the [Code Refinery's Automated Testing lesson](https://coderefinery.github.io/testing/continuous-integration/), adapted to fit the context of this workshop.
 
@@ -255,12 +255,12 @@ Note: Content of this demo and the exercise is based on the [Code Refinery's Aut
 
 - Q&A [5 min]
 
-## 16:20 Exercise 7: Implementing Continuous Integration - 35'
+## 15:45 Exercise 7: Implementing Continuous Integration - 30'
 
 Exercise 5: [Implementing Continuous Integration](../material_for_participants/exercises.md#5-implementing-continuous-integration)
 
 
-## 16:55 Summary and Key Points / Q&A - 15'
+## 16:15 Summary and Key Points / Q&A - 15'
 
 - Branching workflow or forking workflow?
 - Code reviews, roles, and responsibilites
@@ -272,7 +272,7 @@ Where to go from here?
 - DCC open office hours: If you have any questions related to implementing the concepts taught in this course in your projects, you are welcome to attend the open office hours where you can discuss your questions with me or one of my colleagues. See this link for more information and for making an appointment https://www.tudelft.nl/digital-competence-centre/services/code-data-office-hours
 
 
-## 17:10 Feedback - 5'
+## 16:30 Feedback - 5'
 
 
-## 17:15 End
+## 17:35 End
