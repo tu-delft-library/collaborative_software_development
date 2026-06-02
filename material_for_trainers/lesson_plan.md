@@ -102,7 +102,8 @@ Exercise in which participants:
 ## 11:30 Live Demo: Forking Workflow - 30'
 
 - Motivation and learning goals [2 min]
-   - Scenario: When you don't have permissions to push to the original repository, or when you want to contribute to a project without being a collaborator
+   - What is a limitation of the branching workflow? Where would it not work? 
+
 
 - [Demo] Forking workflow demo [15 min]
     - [Preparation] The co-instructor creates a repository named `forking-workflow-demo` using the [recipe-book template](https://github.com/tu-delft-library/recipe-book-template) and does not add the lead instructor as a collaborator. To create the repository from a template, the co-instructor clicks on the "use the template" button on the template repository page, fills in the repository name and other details, and creates the repository. See this [link](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template) for more details on how to create a repository from a template. 
@@ -134,19 +135,9 @@ Exercise 3: [Forking Workflow](../material_for_participants/exercises.md#3-forki
 
 ## 13:30 Code Reviews - 5'
 
-- Why Code Reviews?
-    - Sharing knowledge
-    - Spreading ownership
-    - Unifying development practices
-    - Quality control
-- Best Practices:
-    - Do
-        - Give constructive feedback
-        - Communicate clearly
-    - Don't
-        - Make huge, omnibus PRs
-        - Spend time won what you can automate
-        - Be hostile to individuals
+So far we have learned how to make a pull request with our intended contribution to someone else's code repository, but the project owner might ask us to make some changes to our pull request before it can be merged. 
+
+In this episode we will practice the code review process. We will learn how to ask for changes in a pull request, how to suggest a change in a pull request, and how to modify a pull request.
 
 
 ## 13:35 Live Demo: Code Reviews - 10'
@@ -157,6 +148,22 @@ Exercise 3: [Forking Workflow](../material_for_participants/exercises.md#3-forki
 - The co-instructor follows the steps mentioned in the [code review exercise](../material_for_participants/exercises.md#4-code-reviews): creates a new branch, makes changes to the recipe book, commits and pushes the changes to their fork and creates a pull request from their branch in their fork to the main branch of the upstream `code-review-demo` repository. 
 
 [Demo] The lead instructor reviews the pull request, providing feedback and requesting changes. The co-instructor makes the requested changes, pushes them to their fork, and the lead instructor merges the pull request.
+
+- Why Code Reviews?
+    - Sharing knowledge
+    - Spreading ownership
+    - Unifying development practices
+    - Quality control
+- Best Practices:
+    - Do
+        - Give constructive feedback
+        - Communicate clearly
+        - Do not just point out the problem, specify why it is a problem and suggest ideas to fix it
+    - Don't
+        - Make huge, omnibus PRs
+        - Spend time won what you can automate
+        - Be hostile to individuals
+
 
 - Explain exercise goals and instructions
 
