@@ -132,7 +132,24 @@ For this part of the course, we use the exercise [CodeRefinery Full-cycle collab
 
 #### Running the tests locally
 
-- Create a python virtual environment using venv or conda, activate it, and install pytest using pip. Then run the tests using the command `pytest` in the terminal. 
+Step 2 of the above exercises involves running tests locally using pytest. To do this, you need to have Python and pytest installed on your machine. Here are the steps to set up a Python virtual environment and install pytest:
+
+- Create a python virtual environment using venv and activate it. You can do this by running the following commands in your terminal:
+
+```bash
+python3 -m venv .venv
+source .venv/Scripts/activate  # On Linux and MacOS use `source .venv/bin/activate` 
+```
+
+- Install pytest using pip by running the following command in your terminal:
+
+```bash
+pip install pytest
+``` 
+
+- Run the tests by executing `pytest` in your terminal:
+
+
 
 
 ## Where to go from here
