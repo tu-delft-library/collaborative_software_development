@@ -60,6 +60,16 @@ Present from [slides](https://tud365.sharepoint.com/:p:/r/sites/ResearchDataServ
 - Explain workflow possibilities:
     - **Branching**
     - **Forking**
+- Demonstrate Branching:
+
+```{bash}
+git clone repo_url
+git switch -c featurebranch
+git branch
+[edit a file]
+git commit -m [message]
+git push -u origin featurebranch
+```
 
 ## 10:30 Exercise 1: Branching Workflow - 25'
 
