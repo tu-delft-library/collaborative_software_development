@@ -169,7 +169,17 @@ Discussion:
 - Why contributing guidelines matter
 - How they can help insure consistency, quality and easy review workflows
 - The main components of a contributing guideline and adapting them depending on the project
+  - What kinds of contribution are welcome?
+  - Who may contribute?
+  - How to fit into the community of contributors?
+  - How to report bugs?
+  - How to suggest features?
+  - How to document
+  - Relevant standards
 - Why contributors should follow guidelines
+  - Conssitency
+  - Collegiality
+  - Process and product quality
 
 ## 14:50 Exercise: Guidelines for Contributors - 10'
 
@@ -183,6 +193,10 @@ Exercise 4.3: [Guidelines for Contributors](https://4turesearchdata-carpentries.
 ## 15:00 Presentation: Software Licenses and Software Citation - 20'
 
 Explain and discuss the importance of software licenses and software citation for software.
+
+Copyright inheres in creative work automatically. IP created in the course of our work belongs to the employer (except ... see TU Delft policy below). Copyrighted material may not be reproduced without permission.
+
+*So* if you don't apply a license to your code, nobody else may use or adapt it. And you may not use or adapt any other matrial without a license.
 
 ### Open Source Licenses
 - Importance of OS licenses in context of FAIR
